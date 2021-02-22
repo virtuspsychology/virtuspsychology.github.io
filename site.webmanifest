@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Virtus Psychology",
+    "short_name": "Virtus",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,6 +15,6 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "invictuspsychology.github.io",
+    "start_url": "/index.html",
     "display": "standalone"
 }
