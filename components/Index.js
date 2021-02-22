@@ -1,6 +1,10 @@
 const Index = Vue.component('index', {
     template: `<div>
-    <h1 class="title" style="background-image: url('./assets/tea2.jpg')">Virtus Psychology</h1>
+    <div class="heroImage" style="background-image: url('./assets/tea2.jpg')">
+    <div class="heroText">
+    <h1>Virtus Psychology</h1>
+    </div>
+    </div>
     <p>David O'Donohue is a registered psychologist with a Master's degree in clinical psychology. 
     His primary focus will be to understand your individual and unique circumstances, and work with
     you to find an evidence-based therapeutic intervention that works for you.

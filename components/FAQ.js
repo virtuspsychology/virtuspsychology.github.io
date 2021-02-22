@@ -1,11 +1,19 @@
 const FAQ = Vue.component('faq', {
-    template: `<div class="page">
-    <h1 class="title" style="background-image: url('./assets/happychild.jpg')">FAQs</h1>
-    Do I need therapy?
-    <br><br>
+    template: `<div>
+    <div class="heroImage" style="background-image: url('./assets/happychild.jpg')">
+    <div class="heroText">
+    <h1 class="title">FAQs</h1>
+    </div>
+    </div>
     What can I expect from therapy?
     <br><br>
     What will happen at the first session?
+    <br><br>
+    How will progress be measured?
+    <br><br>
+    Is all therapy the same?
+    <br><br>
+    How much do you charge?
     <br><br>
     How long do sessions last?
     <br><br>
