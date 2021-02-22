@@ -4,24 +4,83 @@
 <html>
     <head>
         <title>Virtus Psychology</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./site.webmanifest">
+        <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
         <meta name="msapplication-TileColor" content="#603cba">
         <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+        <script src="./components/Index.js"></script>
+        <script src="./components/About.js"></script>
+        <script src="./components/FAQ.js"></script>
+        <script src="./components/Fees.js"></script>
+        <script src="./components/Resources.js"></script>
+        <script src="./components/Appointments.js"></script>
+        <script src="./components/Contact.js"></script>
+        <script src="./components/Invalid.js"></script>
     </head>
     <body>
-        <div id ='app' >
+        <div id="app" >
+            <div class="header">
+                <router-link to="/">About</router-link>
+                <router-link to="/Appointments">Appointments</router-link>
+                <router-link to="/Contact">Contact</router-link>
+                <router-link to="/FAQ">FAQ</router-link>
+                <router-link to="/Fees">Fees</router-link>
+                <router-link to="/Resources">Resources</router-link>
+            </div>
+            <transition name="component-fade" mode="out-in">
+                <router-view class="pageContent"></router-view>
+            </transition>
+            <div class="footer">
+                <div class="footerBlock">
+                    <span class="footerHeader">
+                        Opening hours
+                    </span>
+                    <span>Monday: 6am to 2pm (in-person)</span>
+                    <span>Weekdays: 6pm to 9pm (telehealth)</span>
+                </div>
+                <div class="footerBlock">
+                    <span class="footerHeader">Address</span>
+                    <span>Capital Clinical Psychology</span>
+                    <span>Level 1, 5 Sargood Street</span>
+                    <span>O'Connor, ACT, 2602</span>
+                    <br>
+                    <span>Or in-home via telehealth</span>
+                </div>
+                <div class="footerBlock">
+                    <span class="footerHeader">Contact details</span>
+                    <span>Email: <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a></span>
+                    <span>Phone: <a href="sms:0401609112">0401 609 112</i></a></span>
+                </div>
+            </div>
         </div>
     </body>
 </html>
 
 <script>
-  app = new Vue({})
-</script>
 
-<style>
-  
-</style>
+const routes = [
+    { path: '/', component: Index },
+    { path: '/FAQ', component: FAQ },
+    { path: '/Fees', component: Fees },
+    { path: '/Resources', component: Resources },
+    { path: '/Appointments', component: Appointments },
+    { path: '/Contact', component: Contact },
+    { path: '/*', component: Invalid },
+    ];
+
+    const router = new VueRouter({
+        routes
+    });
+
+    app = new Vue({
+        router,
+    }).$mount("#app");
+</script>
