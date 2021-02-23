@@ -5,8 +5,6 @@ const Vision = Vue.component('vision', {
     <h1 class="title">Vision</h1>
     </div>
     </div>
-    <p>
     Virtus is a latin word which means "moral strength", and is the etymological root of the word "virtue".
-    </p>
     </div>`
 });

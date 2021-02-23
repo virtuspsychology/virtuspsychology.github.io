@@ -5,7 +5,6 @@ const Contact = Vue.component('contact', {
     <h1 class="title">Contact</h1>
     </div>
     </div>
-    <p>
     To make a referral, book an appointment, or submit and inquiry, please contact me an email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or via SMS at
     <a href="sms:0401609112">0401 609 112</a>.
@@ -14,6 +13,5 @@ const Contact = Vue.component('contact', {
     or you may book an after-hours telehealth session which you can attend at your home.
     <br><br>
     At your first appointment, we will discuss your current goals, your background, and any concerns you may have.
-    </p>
     </div>`
 });
