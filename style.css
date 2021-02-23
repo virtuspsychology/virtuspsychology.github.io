@@ -38,7 +38,7 @@ a {
     color: black;
     border: none;
     padding: 1vh 0 1vh 0;
-    font-size: min(3vh,16px);
+    font-size: min(4vh,16px);
     text-decoration: none;
     flex-grow: 1;
     text-align: center;
@@ -74,36 +74,14 @@ a {
     color: white;
     border: solid gray;
     padding: 3vh 3vw;
-    font-size: min(4vh, 24px);
+    font-size: min(5vh, 24px);
 }
 
 .pageContent p {
     text-align: justify;
     text-justify: inter-character;
-    font-size: min(3vh, 16px);
+    font-size: min(4vh, 16px);
 }
-
-
-
-/* .styledButton {
-    color: black;
-    border: solid black;
-    padding: 1vh 1vw;
-    margin: 0.5vh 0.5vw;
-    font-size: 16px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-.styledButton:hover {
-    color: white;
-    background-color: black;
-} */
 
 .footer {
     padding: 1vh 0 1vh 0;
@@ -114,7 +92,7 @@ a {
     flex-wrap: wrap;
     background-color: black;
     color: white;
-    font-size: min(3vh, 16px);
+    font-size: min(4vh, 16px);
 }
 
 .footerHeader {
@@ -127,7 +105,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    max-width: max(30vw, 300px);
+    max-width: 20vw;
 }
 
 .component-fade-enter-active, .component-fade-leave-active {
