@@ -103,6 +103,7 @@ a {
     max-height: 30vh;
     overflow: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
@@ -116,18 +117,19 @@ a {
 
 .footerBlock {
     text-align: justify;
-    text-justify: inter-character;
-    display: flex;
-    flex-direction: column;
-    padding: 8px 5px;
+    text-justify: newspaper;
     width: 33vw;
     box-sizing: border-box;
+    padding: 8px 5px;
 }
 
 /* mobile */
 @media (max-width: 480px) {
     .pageContent {
         max-width: 95vw;
+    }
+    .footerBlock {
+        width: 100vw;
     }
 }
 
