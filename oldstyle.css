@@ -1,0 +1,97 @@
+h1 {
+    font-size: x-large;
+}
+
+.pageFrame {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageTile {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageContent {
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5vh 5vw;
+    margin: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5vh 5vw;
+    margin: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.page {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .pageFrame, .card {
+        max-width: 95vw;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    .pageFrame, .card {
+        max-width: 90vw;
+    }
+}
+
+/* laptop */
+@media (max-width: 1024px) {
+    .pageFrame, .card {
+        max-width: 80vw;
+    }
+}
+
+/* desktop */
+@media (min-width: 1025px) {
+    .pageFrame, .card {
+        max-width: 70vw;
+    }
+}
+
+/* large screens
+@media (min-width: 1201px) {
+
+} */

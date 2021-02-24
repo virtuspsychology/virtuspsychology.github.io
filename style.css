@@ -1,21 +1,9 @@
-:root {
-    --black: #0d0f11;
-    --burgandy: #61000d;
-    --red: #d2374a;
-    --green: #5d9700;
-    --lightblue: #d7ecf4;
-  }
-
 * {
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: large;
     /* font-family: Helvetica, sans-serif; */
-}
-
-h1 {
-    font-size: x-large;
 }
 
 #app {
@@ -25,10 +13,6 @@ h1 {
     justify-content:space-between;
     height:100vh;
     width: 100vw;
-}
-
-a {
-    color: orchid;
 }
 
 .header {
@@ -42,7 +26,7 @@ a {
 .header a{
     color: black;
     border: none;
-    padding: 1vh 0 1vh 0;
+    padding: 5px 0;
     text-decoration: none;
     flex-grow: 1;
     text-align: center;
@@ -56,11 +40,6 @@ a {
     background-color: black;
 }
 
-.pageContent {
-    color: black;
-    overflow: auto;
-}
-
 .heroImage {
     display: flex;
     justify-content: space-around;
@@ -69,7 +48,8 @@ a {
     background-position:center center;
     background-size:cover;
     background-repeat:no-repeat;
-    padding: 8vh 0 8vh 0;
+    padding: 8vh 0;
+    width:100%;
 }
 
 .heroText {
@@ -80,9 +60,31 @@ a {
     padding: 2vh 2vw;
 }
 
-.pageContent p {
+.pageFrame {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageContent {
+    overflow-y: auto;
     text-align: justify;
     text-justify: newspaper;
+    height: 100%;
+}
+
+a {
+    color: orchid;
+}
+
+.component-fade-enter-active, .component-fade-leave-active {
+    transition: opacity .4s ease;
+}
+.component-fade-enter, .component-fade-leave-to {
+    opacity: 0;
 }
 
 .footer {
@@ -109,38 +111,31 @@ a {
     max-width: 20vw;
 }
 
-.component-fade-enter-active, .component-fade-leave-active {
-    transition: opacity .4s ease;
-}
-.component-fade-enter, .component-fade-leave-to {
-    opacity: 0;
-}
-
 /* mobile */
 @media (max-width: 480px) {
     .pageContent {
-        width: 95vw;
+        max-width: 95vw;
     }
 }
 
 /* tablet */
 @media (max-width: 768px) {
     .pageContent {
-        width: 90vw;
+        max-width: 90vw;
     }
 }
 
 /* laptop */
 @media (max-width: 1024px) {
     .pageContent {
-        width: 80vw;
+        max-width: 80vw;
     }
 }
 
 /* desktop */
 @media (min-width: 1025px) {
     .pageContent {
-        width: 70vw;
+        max-width: 70vw;
     }
 }
 

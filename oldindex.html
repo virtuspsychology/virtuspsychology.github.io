@@ -1,29 +1,30 @@
+
+
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
+        <title>Virtus Psychology</title>
         <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="manifest" href="./site.webmanifest">
         <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="stylesheet" href="style.css">
-        <meta name="msapplication-TileColor" content="#da532c">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <meta name="msapplication-TileColor" content="#603cba">
         <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="style.css">
         <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
         <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-        
         <script src="./components/Index.js"></script>
         <script src="./components/FAQ.js"></script>
         <script src="./components/Resources.js"></script>
         <script src="./components/Vision.js"></script>
         <script src="./components/Contact.js"></script>
         <script src="./components/Invalid.js"></script>
-
     </head>
     <body>
-        <div id ='app' >
+        <div id="app" >
             <div class="header">
                 <router-link to="/">About</router-link>
                 <router-link to="/Contact">Contact</router-link>
@@ -60,26 +61,22 @@
     </body>
 </html>
 
-<script> 
-const routes = [
-    { path: '/', component: Index },
-    { path: '/FAQ', component: FAQ },
-    { path: '/Resources', component: Resources },
-    { path: '/Contact', component: Contact },
-    { path: '/Vision', component: Vision },
-    { path: '/*', component: Invalid },
-];
+<script>
 
-const router = new VueRouter({
-  routes
-})
+    const routes = [
+        { path: '/', component: Index },
+        { path: '/FAQ', component: FAQ },
+        { path: '/Resources', component: Resources },
+        { path: '/Contact', component: Contact },
+        { path: '/Vision', component: Vision },
+        { path: '/*', component: Invalid },
+    ];
 
-app = new Vue({
-    router,
-}).$mount("#app");
+    const router = new VueRouter({
+        routes
+    });
 
+    app = new Vue({
+        router,
+    }).$mount("#app");
 </script>
-
-<style>
-
-</style>
