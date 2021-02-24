@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content:space-between;
-    height:100vh;
+    min-height:100vh;
     width: 100vw;
     overflow-wrap: break-word;
 }
@@ -73,17 +73,16 @@
     align-items: center;
     flex-direction: column;
     flex-grow: 1;
-    overflow: auto;
 }
 
 .pageContent {
     flex-grow: 1;
-    overflow: auto;
     text-align: justify;
     text-justify: newspaper;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2vh 0;
 }
 
 a {
@@ -100,8 +99,6 @@ a {
 .footer {
     flex-grow: 0;
     width: 100vw;
-    max-height: 30vh;
-    overflow: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
