@@ -7,6 +7,7 @@ const FAQ = Vue.component('faq', {
     </div>
     </div>
     <div class="pageContent">
+    <span>
     What can I expect from therapy?
     <br><br>
     What will happen at the first session?
@@ -25,6 +26,7 @@ const FAQ = Vue.component('faq', {
     <br><br>
     Is my information private?
     <br><br>
+    </span>
     </div>
     </div>`
 });

@@ -6,6 +6,7 @@ const Resources = Vue.component('resources', {
     </div>
     </div>
     <div class="pageContent">
+    <span>
     <h3>For Clients</h3>
     <a href="tel:1800629354">The Crisis and Assessment Treatment Team, Canberra - 1800 629 354</a><br>
     <a href="tel:131114">Lifeline - 13 11 14</a><br>
@@ -18,6 +19,7 @@ const Resources = Vue.component('resources', {
     <a href="https://www.psychology.org.au/getmedia/23c6a11b-2600-4e19-9a1d-6ff9c2f26fae/Evidence-based-psych-interventions.pdf">Evidence-based Psychological Interventions in the Treatment of Mental Disorders</a><br>
     <a href="https://www.psychology.org.au/Training-Events/Events-Calendar">APS Calendar of CPD events</a><br>
     <a href="https://www.psychology.org.au/inpsych/">APS InPsych magazine</a><br>
+    </span>
     </div>
     </div>`
 });

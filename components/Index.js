@@ -6,6 +6,7 @@ const Index = Vue.component('index', {
     </div>
     </div>
     <div class="pageContent">
+    <span>
     David O'Donohue is a registered psychologist with a Master's degree in clinical psychology. 
     His primary focus will be to understand your individual and unique circumstances, and work with
     you to find an evidence-based therapeutic intervention that works for you.
@@ -17,6 +18,7 @@ const Index = Vue.component('index', {
     <br><br>
     To make a referral or book an appointment, please send me an email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
     contact me via SMS at <a href="sms:0401609112">0401 609 112</a>.
+    </span>
     </div>
     </div>`
 });
