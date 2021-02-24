@@ -116,8 +116,6 @@ a {
 }
 
 .footerBlock {
-    text-align: justify;
-    text-justify: newspaper;
     width: 33vw;
     box-sizing: border-box;
     padding: 8px 5px;
