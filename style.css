@@ -30,7 +30,7 @@
 .header a{
     color: black;
     border: none;
-    padding: 8px 5px;
+    padding: 3vw 3vh;
     text-decoration: none;
     flex-grow: 1;
     text-align: center;
@@ -52,7 +52,7 @@
     background-position:center center;
     background-size:cover;
     background-repeat:no-repeat;
-    padding: 8vmin 1vmin;
+    padding: 8vh 0;
     width:100%;
     flex-grow: 0;
 }
@@ -82,7 +82,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2vh 0;
+    padding: 3vh 0;
 }
 
 a {
@@ -115,7 +115,8 @@ a {
 .footerBlock {
     width: 33vw;
     box-sizing: border-box;
-    padding: 8px 5px;
+    padding: 3vh 3vw;
+    text-align: left;
 }
 
 /* mobile */
@@ -125,6 +126,7 @@ a {
     }
     .footerBlock {
         width: 100vw;
+        text-align: center;
     }
 }
 

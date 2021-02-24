@@ -16,8 +16,8 @@ const Index = Vue.component('index', {
     <br><br>
     David is currently accepting mental health care plan referred and self-referred clients experiencing symptoms related to anxiety and depression.
     <br><br>
-    To make a referral or book an appointment, please send me an email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
-    contact me via SMS at <a href="sms:0401609112">0401 609 112</a>.
+    To make a referral or book an appointment, please contact me via email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
+    via SMS at <a href="sms:0401609112">0401 609 112</a>.
     </span>
     </div>
     </div>`

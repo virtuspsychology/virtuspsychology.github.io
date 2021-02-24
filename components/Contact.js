@@ -7,7 +7,7 @@ const Contact = Vue.component('contact', {
     </div>
     <div class="pageContent">
     <span>
-    To make a referral, book an appointment, or submit and inquiry, please contact me an email at
+    To make a referral, book an appointment, or submit and inquiry, please contact me via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or via SMS at
     <a href="sms:0401609112">0401 609 112</a>.
     <br><br>
