@@ -13,14 +13,13 @@
         <meta name="theme-color" content="#ffffff">
         <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
         <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-        
         <script src="./components/Index.js"></script>
         <script src="./components/FAQ.js"></script>
         <script src="./components/Resources.js"></script>
         <script src="./components/Vision.js"></script>
         <script src="./components/Contact.js"></script>
+        <script src="./components/HiddenResources.js"></script>
         <script src="./components/Invalid.js"></script>
-
     </head>
     <body>
         <div id ='app' >
@@ -67,6 +66,7 @@ const routes = [
     { path: '/Resources', component: Resources },
     { path: '/Contact', component: Contact },
     { path: '/Vision', component: Vision },
+    { path: '/HiddenResources', component: HiddenResources },
     { path: '/*', component: Invalid },
 ];
 
