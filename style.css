@@ -16,6 +16,22 @@
     overflow-wrap: break-word;
 }
 
+a {
+    color: lawngreen;
+}
+
+a:visited {
+    color: limegreen;
+}
+
+.page-content a {
+    color: green;
+}
+
+.page-content a:visited {
+    color: darkgreen;
+}
+
 .lander {
     width: 100vw;
     height: 100vh;
@@ -25,11 +41,18 @@
     background-repeat:no-repeat;
     background-attachment:fixed;
     padding: 48px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vh 2vw;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .lander-text {
-    border: solid white;
-    border-radius: 10%;
+    margin: 2vh 2vw;
+    color: white;
 }
 
 .lander-filler {
@@ -125,6 +148,10 @@
     text-align: justify;
     text-justify: newspaper;
     margin: 5vh 5vw;
+}
+
+.question {
+    font-style: italic;
 }
 
 .footer {

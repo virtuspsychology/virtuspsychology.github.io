@@ -7,24 +7,24 @@ const FAQ = Vue.component('faq', {
     </div>
     </div>
     <div class="page-content">
-    <span>
-    What can I expect from therapy?
+    <span class="question">What can I expect from therapy?</span>
+    <br>
     <br><br>
-    What will happen at the first session?
+    <span class="question">What will happen at the first session?</span>
     <br><br>
-    How will progress be measured?
+    <span class="question">How will progress be measured?</span>
     <br><br>
-    Is all therapy the same?
+    <span class="question">Is all therapy the same?</span>
     <br><br>
-    How much do you charge?
+    <span class="question">How much do you charge?</span>
     <br><br>
-    How long do sessions last?
+    <span class="question">How long do sessions last?</span>
     <br><br>
-    How many sessions will I need? How often?
+    <span class="question">How many sessions will I need? How often?</span>
     <br><br>
-    What is a mental health care plan? How does it work?What is a mental health care plan? How does it work?What is a mental health care plan? How does it work?
+    <span class="question">What is a mental health care plan? How does it work?</span>
     <br><br>
-    Is my information private?
+    <span class="question">Is my information private?</span>
     <br><br>
     </span>
     </div>
