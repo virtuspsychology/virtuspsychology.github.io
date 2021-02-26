@@ -1,11 +1,12 @@
 const HiddenResources = Vue.component('hidden-resources', {
-    template: `<div class="pageFrame">
-    <div class="heroImage" style="background-image: url('./assets/enjoy.jpg')">
-    <div class="heroText">
+    template: `<div class="page-frame">
+    <div class="lander-filler"></div>
+    <div class="hero-image" style="background-image: url('./assets/enjoy.jpg')">
+    <div class="hero-text">
     <h1 class="title">Resources</h1>
     </div>
     </div>
-    <div class="pageContent">
+    <div class="page-content">
     <span>
     DSM-5: <a href="resources/dsm5.epub">EPUB</a> <a href="resources/dsm5.pdf">PDF</a>
     <br><br>

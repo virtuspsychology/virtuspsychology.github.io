@@ -1,92 +1,171 @@
-h1 {
-    font-size: x-large;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    max-width: 100%;
+    max-height: 100%;;
+    /* font-family: Helvetica, sans-serif; */
 }
 
-.pageFrame {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
-.pageTile {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
-.pageContent {
-    overflow-y: scroll;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: white;
-    border-radius: 20px;
-    padding: 5vh 5vw;
-    margin: 2vh 2vw;
+#app {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    overflow: auto;
-    flex-wrap: wrap;
-}
-
-.card {
-    overflow-y: scroll;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: white;
-    border-radius: 20px;
-    padding: 5vh 5vw;
-    margin: 2vh 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    overflow: auto;
-    flex-wrap: wrap;
-}
-
-.page {
+    justify-content:space-between;
+    min-height:100vh;
     width: 100vw;
+    overflow-wrap: break-word;
+}
+
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.header a{
+    color: black;
+    border: none;
+    padding: 3vw 3vh;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+
+.header a:hover,
+.header .router-link-exact-active {
+    color: gold;
+    background-color: black;
+}
+
+.heroImage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-position:center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 8vh 0;
+    width:100%;
+    flex-grow: 0;
+}
+
+.heroText {
+    text-align: center;
+    background-color:black;
+    color: white;
+    border: solid gray;
+    padding: 2vh 2vw;
+}
+
+.page-frame {
+    width: 100%;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    flex-grow: 1;
+}
+
+.page-content {
+    flex-grow: 1;
+    text-align: justify;
+    text-justify: newspaper;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 0;
+}
+
+a {
+    color: orchid;
+}
+
+.component-fade-enter-active, .component-fade-leave-active {
+    transition: opacity .4s ease;
+}
+.component-fade-enter, .component-fade-leave-to {
+    opacity: 0;
+}
+
+.footer {
+    flex-grow: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+.footer-header {
+    color: gold;
+}
+
+.footer-block {
+    width: 33vw;
+    box-sizing: border-box;
+    padding: 3vh 3vw;
+    text-align: left;
 }
 
 /* mobile */
 @media (max-width: 480px) {
-    .pageFrame, .card {
+    .page-content {
         max-width: 95vw;
+    }
+    .footer-block {
+        width: 100vw;
+        text-align: center;
+    }
+    .header {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        flex-direction: column;
     }
 }
 
 /* tablet */
 @media (max-width: 768px) {
-    .pageFrame, .card {
+    .page-content {
         max-width: 90vw;
     }
+
 }
 
 /* laptop */
 @media (max-width: 1024px) {
-    .pageFrame, .card {
+    .page-content {
         max-width: 80vw;
     }
 }
 
 /* desktop */
 @media (min-width: 1025px) {
-    .pageFrame, .card {
+    .page-content {
         max-width: 70vw;
     }
 }

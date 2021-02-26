@@ -1,11 +1,12 @@
 const Resources = Vue.component('resources', {
-    template: `<div class="pageFrame">
-    <div class="heroImage" style="background-image: url('./assets/books.jpg')">
-    <div class="heroText">
+    template: `<div class="page-frame">
+    <div class="lander-filler"></div>
+    <div class="hero-image" style="background-image: url('./assets/books.jpg')">
+    <div class="hero-text">
     <h1 class="title">Resources</h1>
     </div>
     </div>
-    <div class="pageContent">
+    <div class="page-content">
     <span>
     <h3>For Clients</h3>
     <a href="tel:1800629354">The Crisis and Assessment Treatment Team, Canberra - 1800 629 354</a><br>

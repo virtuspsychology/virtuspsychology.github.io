@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Virtus Psychology</title>
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
         <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -17,40 +18,43 @@
         <script src="./components/FAQ.js"></script>
         <script src="./components/Resources.js"></script>
         <script src="./components/Vision.js"></script>
-        <script src="./components/Contact.js"></script>
         <script src="./components/HiddenResources.js"></script>
         <script src="./components/Invalid.js"></script>
     </head>
     <body>
         <div id ='app' >
-            <div class="header">
-                <router-link to="/">About</router-link>
-                <router-link to="/Contact">Contact</router-link>
-                <router-link to="/Vision">Vision</router-link>
-                <router-link to="/FAQ">FAQ</router-link>
-                <router-link to="/Resources">Resources</router-link>
+            <div class="nav-container">
+                <div class="nav-bar">
+                        <router-link to="/" class="brand nav-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 12.7 12.7"><defs><style type="text/css"/></defs><path class="logo" d="m6.4 1.6c1.5 1.1 3.3 1.5 4.5 1.6C10.5 6.8 8.4 9.6 6.4 11.2 4.3 9.6 2.2 6.8 1.8 3.3 3.1 3.1 4.9 2.8 6.4 1.6Zm0-1.3c-1.5 1.5-3.8 2-5.6 2 0 4.3 2.6 8.1 5.6 10.1 3-2 5.6-5.8 5.6-10.1-1.8 0-4-0.5-5.6-2z" stroke-width="0.5"/><path class="logo" d="M6.4 9.8H6.3C5.9 9.8 5.5 9.8 5.3 9.8 5.8 9.4 6.5 9 5.4 8.7 4.2 8.4 4.4 5.5 3.6 5.1 3.4 5 3.2 5.1 3 5.1c1.7-1.5 1.8 1.7 2.5 2.7 0.2 0.3 0.3 0.4 0.6 0.4 0-1.4 0-2.8 0-4.3 0-0.5-0.4-0.8-0.7-1.1 0 0 0.5 0 1 0 0.5 0 1 0 1 0-0.3 0.3-0.7 0.6-0.7 1.1 0 1.4 0 2.8 0 4.3 0.3-0.1 0.4-0.1 0.6-0.4 0.6-1 0.8-4.3 2.5-2.7-0.2 0-0.4-0.1-0.6 0-0.9 0.4-0.6 3.3-1.8 3.6-1.1 0.3-0.4 0.7 0.2 1.1-0.2 0-0.7 0-1.1 0z" stroke-width="0.02"/></svg>
+                            <span class="brand-name">Virtus Psychology</span>
+                        </router-link>
+                    <router-link class="nav-item" to="/Vision">Vision</router-link>
+                    <router-link class="nav-item" to="/FAQ">FAQ</router-link>
+                    <router-link class="nav-item" to="/Resources">Resources</router-link>
+                </div>
             </div>
             <transition name="component-fade" mode="out-in">
                 <router-view></router-view>
             </transition>
             <div class="footer">
-                <div class="footerBlock">
-                    <span class="footerHeader">
+                <div class="footer-block">
+                    <span class="footer-header">
                         Opening hours
                     </span><br>
                     <span>Monday: 6am to 2pm (in-person)</span><br>
                     <span>Weekdays: 6pm to 9pm (telehealth)</span>
                 </div>
-                <div class="footerBlock">
-                    <span class="footerHeader">Address</span><br>
+                <div class="footer-block">
+                    <span class="footer-header">Address</span><br>
                     <span><a href="https://www.google.com/maps/search/?api=1&query=5+Sargood+Street&query_place_id=ChIJ-6g82aBSFmsRqzxgK3x2C-c">Capital Clinical Psychology<br>
                     Level 1, 5 Sargood Street<br>
                     O'Connor, ACT, 2602</a><br>
                     <br>
                     <span>Or in-home via telehealth</span>
                 </div>
-                <div class="footerBlock">
-                    <span class="footerHeader">Contact details</span><br>
+                <div class="footer-block">
+                    <span class="footer-header">Contact details</span><br>
                     <span>Email: <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a></span><br>
                     <span>Phone: <a href="sms:0401609112">0401 609 112</i></a></span>
                 </div>
@@ -64,7 +68,6 @@ const routes = [
     { path: '/', component: Index },
     { path: '/FAQ', component: FAQ },
     { path: '/Resources', component: Resources },
-    { path: '/Contact', component: Contact },
     { path: '/Vision', component: Vision },
     { path: '/HiddenResources', component: HiddenResources },
     { path: '/*', component: Invalid },

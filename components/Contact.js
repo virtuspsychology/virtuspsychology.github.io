@@ -1,11 +1,11 @@
 const Contact = Vue.component('contact', {
-    template: `<div class="pageFrame">
+    template: `<div class="page-frame">
     <div class="heroImage" style="background-image: url('./assets/appointment.jpg')">
     <div class="heroText">
     <h1 class="title">Contact</h1>
     </div>
     </div>
-    <div class="pageContent">
+    <div class="page-content">
     <span>
     To make a referral, book an appointment, or submit and inquiry, please contact me via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or via SMS at

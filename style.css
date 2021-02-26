@@ -2,10 +2,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
-    font-size: large;
     max-width: 100%;
     max-height: 100%;;
-    /* font-family: Helvetica, sans-serif; */
 }
 
 #app {
@@ -18,33 +16,85 @@
     overflow-wrap: break-word;
 }
 
-.header {
+.lander {
     width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-grow: 0;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("./assets/balance.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
-.header a{
-    color: black;
-    border: none;
-    padding: 3vw 3vh;
-    text-decoration: none;
+.lander-filler {
+    width: 100vw;
+    height: 48px;
+}
+
+.nav-container {
+    position: absolute;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-bar * {
+    align-self: stretch;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.nav-bar a{
+    color: white;
     flex-grow: 1;
+    border: none;
+    text-decoration: none;
     text-align: center;
     transition-duration: 0.4s;
+}
+
+.nav-item:hover,
+.nav-item .router-link-exact-active {
+    color: black;
     background-color: white;
 }
 
-.header a:hover,
-.header .router-link-exact-active {
-    color: gold;
-    background-color: black;
+.nav-item:hover .logo {
+    fill: black;
 }
 
-.heroImage {
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    fill: white;
+}
+
+.page-frame {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-image {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -57,7 +107,7 @@
     flex-grow: 0;
 }
 
-.heroText {
+.hero-text {
     text-align: center;
     background-color:black;
     color: white;
@@ -65,28 +115,34 @@
     padding: 2vh 2vw;
 }
 
-.pageFrame {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.pageContent {
-    flex-grow: 1;
+.page-content {
     text-align: justify;
     text-justify: newspaper;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3vh 0;
+    margin: 5vh 5vw;
 }
 
-a {
-    color: orchid;
+.footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 2.5vh 2.5vw;
+    box-sizing: border-box;
+}
+
+.footer-block {
+    width: 30vw;
+    box-sizing: border-box;
+    padding: 2.5vh 2.5vw;
+    text-align: left;
+}
+
+.footer-header {
+    color: gold;
 }
 
 .component-fade-enter-active, .component-fade-leave-active {
@@ -96,58 +152,40 @@ a {
     opacity: 0;
 }
 
-.footer {
-    flex-grow: 0;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: black;
-    color: white;
-}
-
-.footerHeader {
-    color: gold;
-}
-
-.footerBlock {
-    width: 33vw;
-    box-sizing: border-box;
-    padding: 3vh 3vw;
-    text-align: left;
-}
-
 /* mobile */
 @media (max-width: 480px) {
-    .pageContent {
+    .page-content {
         max-width: 95vw;
     }
-    .footerBlock {
-        width: 100vw;
-        text-align: center;
+    .footer {
+        flex-direction: column;
+    }
+    .footer-block {
+        width: 80vw;
+    }
+    .brand-name {
+        display: none;
     }
 }
 
 /* tablet */
 @media (max-width: 768px) {
-    .pageContent {
-        max-width: 90vw;
+    .page-content {
+        max-width: 80vw;
     }
 }
 
 /* laptop */
 @media (max-width: 1024px) {
-    .pageContent {
-        max-width: 80vw;
+    .page-content {
+        max-width: 70vw;
     }
 }
 
 /* desktop */
 @media (min-width: 1025px) {
-    .pageContent {
-        max-width: 70vw;
+    .page-content {
+        max-width: 60vw;
     }
 }
 

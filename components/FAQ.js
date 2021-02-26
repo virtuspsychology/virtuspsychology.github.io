@@ -1,12 +1,12 @@
 const FAQ = Vue.component('faq', {
-    template: `<div class="pageFrame">
-
-    <div class="heroImage" style="background-image: url('./assets/happychild.jpg')">
-    <div class="heroText">
+    template: `<div class="page-frame">
+    <div class="lander-filler"></div>
+    <div class="hero-image" style="background-image: url('./assets/happychild.jpg')">
+    <div class="hero-text">
     <h1 class="title">FAQs</h1>
     </div>
     </div>
-    <div class="pageContent">
+    <div class="page-content">
     <span>
     What can I expect from therapy?
     <br><br>
