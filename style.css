@@ -17,19 +17,19 @@
 }
 
 a {
-    color: lawngreen;
+    color: khaki;
 }
 
 a:visited {
-    color: limegreen;
+    color: moccasin;
 }
 
 .page-content a {
-    color: green;
+    color: gold;
 }
 
 .page-content a:visited {
-    color: darkgreen;
+    color: darkkhaki;
 }
 
 .lander {
@@ -42,7 +42,7 @@ a:visited {
     background-attachment:fixed;
     padding: 48px 0 0 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     padding: 2vh 2vw;
@@ -77,6 +77,7 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 9;
 }
 
 .nav-bar * {
@@ -184,6 +185,26 @@ a:visited {
 .component-fade-enter, .component-fade-leave-to {
     opacity: 0;
 }
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+.arrow {
+    fill: white;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
 
 /* mobile */
 @media (max-width: 480px) {
