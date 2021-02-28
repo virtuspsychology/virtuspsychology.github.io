@@ -9,10 +9,10 @@ const Resources = Vue.component('resources', {
     <div class="page-content">
     <span>
     <h3>For Clients</h3>
-    <a href="tel:1800629354">The Crisis and Assessment Treatment Team, Canberra - 1800 629 354</a><br>
-    <a href="tel:131114">Lifeline - 13 11 14</a><br>
-    <a href="tel:1300422567">CALMS - 1300 422 567</a><br>
-    <a href="tel:1300656200">SupportLink - 1300 656 200</a><br>
+    <a href="tel:1800629354">The Crisis and Assessment Treatment Team, Canberra</a><br>
+    <a href="tel:131114">Lifeline</a><br>
+    <a href="tel:1300422567">CALMS</a><br>
+    <a href="tel:1300656200">SupportLink</a><br>
     <br><br>
     <h3>For Clinicians</h3>
     <a href="https://www.psychologyboard.gov.au/Standards-and-Guidelines/Codes-Guidelines-Policies.aspx">AHPRA Guidelines and Policies</a><br>

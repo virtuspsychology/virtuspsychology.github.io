@@ -5,8 +5,26 @@ const Index = Vue.component('index', {
             window.scrollTo({top:yValue, behavior: 'smooth'});
         }
     },
+    data() {
+        return {
+            images: [
+            "./assets/meditation.jpg",
+            "./assets/balance.jpg",
+            "./assets/lotus.jpg",
+            "./assets/candles.jpg"
+            ]
+        }
+    },
+    computed: {
+        backgroundStyle(){
+            //var index = Math.floor(Math.random() * this.images.length);
+            // just lotus for now
+            var index = 2;
+            return "background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(" + this.images[index] + ");";
+        }
+    },
     template: `<div class="page-frame">
-    <div class="lander">
+    <div class="lander" :style="backgroundStyle">
     <span></span>
     <span>
     <h2 class="lander-text">In-person or telehealth therapy in Canberra</h2>

@@ -35,7 +35,7 @@ a:visited {
 .lander {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("./assets/meditation.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("./assets/meditation.jpg"); */
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
