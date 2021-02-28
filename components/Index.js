@@ -9,7 +9,7 @@ const Index = Vue.component('index', {
     <div class="lander">
     <span></span>
     <span>
-    <h1 class="lander-text">In-person or telehealth therapy in Canberra</h1>
+    <h2 class="lander-text">In-person or telehealth therapy in Canberra</h2>
     <p class="lander-text">Contact David via email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or via SMS at
     <a href="sms:0401609112">0401 609 112</a> to request an appointment or make an inquiry.</p>
     </span>

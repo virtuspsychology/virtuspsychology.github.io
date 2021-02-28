@@ -17,19 +17,19 @@
 }
 
 a {
-    color: khaki;
+    color: deepskyblue;
 }
 
 a:visited {
-    color: moccasin;
+    color: lightskyblue;
 }
 
 .page-content a {
-    color: gold;
+    color: mediumblue;
 }
 
 .page-content a:visited {
-    color: darkkhaki;
+    color: royalblue;
 }
 
 .lander {
