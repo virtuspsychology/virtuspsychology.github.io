@@ -15,7 +15,7 @@ const Vision = Vue.component('vision', {
     to act ethically, as well as an empirical basis for determining what virtue and ethics actually are.
     <br><br>
     Our aim is to help others develop skills and habits which typically result in positive outcomes, through evidence-based therapeutic interventions and
-    the latest research in positive psychology.
+    the latest research in psychology.
     </span>
     </div>
     </div>`
