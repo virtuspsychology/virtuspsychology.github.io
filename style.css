@@ -97,13 +97,12 @@ a:visited {
 }
 
 .nav-item:hover,
-.router-link-exact-active {
+.nav-item .router-link-exact-active {
     color: black;
     background-color: white;
 }
 
-.nav-item:hover .logo,
-.router-link-exact-active {
+.nav-item:hover .logo {
     fill: black;
 }
 
