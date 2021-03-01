@@ -209,7 +209,7 @@ a:visited {
   }
 
 /* mobile */
-@media (max-width: 480px) {
+@media (max-width: 599px) {
     .page-content {
         max-width: 95vw;
     }
@@ -227,27 +227,27 @@ a:visited {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (min-width: 600px) {
     .page-content {
         max-width: 80vw;
     }
 }
 
 /* laptop */
-@media (max-width: 1024px) {
+@media (min-width: 900px) {
     .page-content {
         max-width: 70vw;
     }
 }
 
 /* desktop */
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
     .page-content {
         max-width: 60vw;
     }
 }
 
 /* large screens
-@media (min-width: 1201px) {
+@media (min-width: 1800px) {
 
 } */
