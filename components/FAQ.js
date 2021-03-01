@@ -11,7 +11,7 @@ const FAQ = Vue.component('faq', {
     <br><br>
     Therapy will involve working collaboratively with your psychologist over the course of several 50 minute sessions. Your psychologist
     is an expert on evidence-based treatments and interventions, and you are an expert on the factors in your own life, what you have tried before,
-    what has/hasn't worked, and your own goals an values. You may discuss the problems you are having in your life, learn and/or practice
+    what has/hasn't worked, and your own goals and values. You may discuss the problems you are having in your life, learn and/or practice
     various skills, experiment with different ways of thinking and/or behaving, and develop greater insight into yourself or others.
     <br><br>
     <span class="question">What will happen at the first session?</span>
