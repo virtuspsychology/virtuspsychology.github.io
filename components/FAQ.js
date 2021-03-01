@@ -36,8 +36,7 @@ const FAQ = Vue.component('faq', {
     <br><br>
     <span class="question">How much do you charge?</span>
     <br><br>
-    In line with the APS recommended schedule of fees for sessions with a private practice psychologist, a 50 minute session will cost $260. For clients who have not
-    used all of their mental health care plan sessions, this will equate to a $ gap fee after the $ rebate.
+    In line with the APS recommended schedule of fees for sessions with a private practice psychologist, a 50 minute session will cost $260.
     <br><br>
     <span class="question">What is a mental health care plan? How does it work?</span>
     <br><br>
