@@ -1,7 +1,7 @@
 const Index = Vue.component('index', {
     methods: {
         scrollToContent(){
-            var yValue = window.innerHeight - 48;
+            var yValue = window.innerHeight - 47;
             window.scrollTo({top:yValue, behavior: 'smooth'});
         }
     },

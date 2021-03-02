@@ -17,6 +17,8 @@ const HiddenResources = Vue.component('hidden-resources', {
     <a href="resources/The Wiley Blackwell Handbook of Mindfulness.pdf">The Wiley Blackwell Handbook of Mindfulness</a>
     <br><br>
     <a href="resources/The Handbook of Person-Centred Psychotherapy and Counselling.pdf">The Handbook of Person-Centred Psychotherapy and Counselling</a>
+    <br><br>
+    <a href="resources/Unified Protocol for Transdiagnostic Treatment of Emotional Disorders Therapist Guide.pdf">Unified Protocol for Transdiagnostic Treatment of Emotional Disorders</a>
     </span>
     </div>
     </div>`
