@@ -8,10 +8,10 @@ const Index = Vue.component('index', {
     data() {
         return {
             images: [
-            "./assets/meditation.jpg",
+            "./assets/yoga.jpg",
             "./assets/balance.jpg",
             "./assets/lotus.jpg",
-            "./assets/candles.jpg"
+            "./assets/ripple.jpg"
             ]
         }
     },
