@@ -17,8 +17,7 @@ const Index = Vue.component('index', {
     },
     computed: {
         backgroundStyle(){
-            //var index = Math.floor(Math.random() * this.images.length);
-            // just lotus for now
+            var index = Math.floor(Math.random() * this.images.length);
             var index = 2;
             return "background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(" + this.images[index] + ");";
         }
@@ -36,14 +35,18 @@ const Index = Vue.component('index', {
     </div>
     </div>
     <div class="page-content" id="content">
-    David O'Donohue is a registered psychologist with a Master's degree in clinical psychology. 
+    David O'Donohue is a registered psychologist with a Master's degree in clinical psychology.
+    He has experience helping both adults and children manage and reduce symptoms of stress, anxiety, and depression,
+    develop assertiveness skills, and reduce procrastination and avoidance.
+    <br><br>
+    David uses the Unified Protocol model of therapy, a recently developed and evidence-based approach which attempts
+    to combine the most useful and effective elements of CBT (cognitive behavioural therapy), ACT (acceptance and commitment therapy),
+    and DBT (dialectical behaviour therapy).
     His primary focus will be to understand your individual and unique circumstances, and work with
-    you to find an evidence-based therapeutic intervention that works for you.
+    you to help you meet your goals.
     <br><br>
-    David's interests involve Cognitive Behavioural Therapy (CBT), Acceptance and Commitment Therapy (ACT),
-    mindfulness, Dialectical Behaviour Therapy (DBT), positive psychology, and the philosophical roots of these treatment frameworks.
-    <br><br>
-    David is currently accepting mental health care plan referred and self-referred clients experiencing symptoms related to anxiety and depression.
+    David is currently accepting mental health care plan referred and self-referred clients experiencing symptoms related to
+    stress, anxiety, and depression. Appointments are available in-person on Mondays, or via telehealth between Tuesdays and Fridays.
     <br><br>
     To request an appointment or make an inquiry, please contact David via email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
     via SMS at <a href="sms:0401609112">0401 609 112</a>.
