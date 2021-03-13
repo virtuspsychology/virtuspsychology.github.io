@@ -18,7 +18,6 @@ const Index = Vue.component('index', {
     computed: {
         backgroundStyle(){
             var index = Math.floor(Math.random() * this.images.length);
-            var index = 2;
             return "background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(" + this.images[index] + ");";
         }
     },
