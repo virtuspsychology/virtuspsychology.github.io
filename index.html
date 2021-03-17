@@ -109,6 +109,11 @@ app = new Vue({
             this.menuOpen = !this.menuOpen;
         }
     },
+    watch:{
+        $route (to, from){
+            this.menuOpen = false;
+        }
+    }
 }).$mount("#app");
 
 </script>
