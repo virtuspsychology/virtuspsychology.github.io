@@ -8,7 +8,7 @@ const Psychometrics = Vue.component('psychometrics', {
     </div>
     </div>
     <div class="page-content">
-    <span>Please note: for privacy and confidentiality reasons, no data is recorded and autocomplete is explicitly disabled.
+    <span>Please note: to preserve confidentiality, no data is recorded and autocomplete is explicitly disabled.
     If you would like to keep a record of the data, please do so manually.</span>
     </div>
     </div>

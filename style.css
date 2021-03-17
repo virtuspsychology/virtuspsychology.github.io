@@ -110,6 +110,14 @@ a:visited {
     fill: black;
 }
 
+.svgIcon{
+    fill: white;
+}
+
+.menu-button:hover .svgIcon{
+    fill: black;
+}
+
 .menu-button {
     display: none;
 }
