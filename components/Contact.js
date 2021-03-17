@@ -1,5 +1,5 @@
 const Contact = Vue.component('contact', {
-    template: `<div class="page-frame">
+    template: `<div class="page-outer-frame">
     <div class="heroImage" style="background-image: url('./assets/appointment.jpg')">
     <div class="heroText">
     <h1 class="title">Contact</h1>

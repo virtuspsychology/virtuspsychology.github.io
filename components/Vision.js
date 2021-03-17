@@ -1,6 +1,7 @@
 const Vision = Vue.component('vision', {
-    template: `<div class="page-frame">
+    template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
+    <div class="page-inner-frame">
     <div class="hero-image" style="background-image: url('./assets/sphere.jpg')">
     <div class="hero-text">
     <h1 class="title">Vision</h1>
@@ -17,6 +18,7 @@ const Vision = Vue.component('vision', {
     Our aim is to help others develop skills and habits which typically result in positive outcomes, through evidence-based therapeutic interventions and
     the latest research in psychology.
     </span>
+    </div>
     </div>
     </div>`
 });

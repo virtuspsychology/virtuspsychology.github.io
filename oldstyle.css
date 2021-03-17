@@ -76,7 +76,7 @@
     padding: 2vh 2vw;
 }
 
-.page-frame {
+.page-outer-frame {
     width: 100%;
     text-align: center;
     display: flex;

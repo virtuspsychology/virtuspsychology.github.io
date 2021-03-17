@@ -1,5 +1,5 @@
 const HiddenResources = Vue.component('hidden-resources', {
-    template: `<div class="page-frame">
+    template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
     <div class="hero-image" style="background-image: url('./assets/candles.jpg')">
     <div class="hero-text">

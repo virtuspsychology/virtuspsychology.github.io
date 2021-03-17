@@ -1,6 +1,7 @@
 const Resources = Vue.component('resources', {
-    template: `<div class="page-frame">
+    template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
+    <div class="page-inner-frame">
     <div class="hero-image" style="background-image: url('./assets/books.jpg')">
     <div class="hero-text">
     <h1 class="title">Resources</h1>
@@ -27,6 +28,7 @@ const Resources = Vue.component('resources', {
     <a href="https://www.ahpra.gov.au/About-Ahpra/What-We-Do/Legislation.aspx">AHPRA Legislation for Psychologists</a><br>
     <a href="resources/Mental Health Act 2015.pdf">Mental Health Act 2015</a><br>
     </span>
+    </div>
     </div>
     </div>`
 });

@@ -1,7 +1,7 @@
 const Index = Vue.component('index', {
     methods: {
         scrollToContent(){
-            var yValue = window.innerHeight - 47;
+            var yValue = window.innerHeight - 50;
             window.scrollTo({top:yValue, behavior: 'smooth'});
         }
     },
@@ -21,7 +21,7 @@ const Index = Vue.component('index', {
             return "background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(" + this.images[index] + ");";
         }
     },
-    template: `<div class="page-frame">
+    template: `<div class="page-outer-frame">
     <div class="lander" :style="backgroundStyle">
     <span></span>
     <span>
@@ -33,6 +33,7 @@ const Index = Vue.component('index', {
     <svg xmlns="http://www.w3.org/2000/svg" height="60" viewBox="0 0 24 24" width="60"><path class="arrow" d="M7.4 8.6L12 13.2l4.6-4.6L18 10l-6 6-6-6 1.4-1.4z"/></svg>
     </div>
     </div>
+    <div class="page-inner-frame">
     <div class="page-content" id="content">
     David O'Donohue is a registered psychologist with a Master's degree in clinical psychology.
     He has experience helping both adults and children manage and reduce symptoms of stress, anxiety, and depression,
@@ -49,6 +50,7 @@ const Index = Vue.component('index', {
     <br><br>
     To request an appointment or make an inquiry, please contact David via email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
     via SMS at <a href="sms:0401609112">0401 609 112</a>.
+    </div>
     </div>
     </div>`
 });
