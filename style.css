@@ -106,16 +106,15 @@ a:visited {
 }
 
 .nav-item:hover .logo,
-.router-link-exact-active .logo {
+.router-link-exact-active .logo,
+.menu-button:hover .svgIcon,
+.menu-button:focus .svgIcon {
     fill: black;
 }
 
-.svgIcon{
+.svgIcon,
+.logo {
     fill: white;
-}
-
-.menu-button:hover .svgIcon{
-    fill: black;
 }
 
 .menu-button {
@@ -126,10 +125,6 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.logo {
-    fill: white;
 }
 
 .page-outer-frame {
