@@ -209,7 +209,7 @@ app = new Vue({
             window.print();
         },
         emailData(){
-            var emailString = "mailto:" + this.email + "?subject=DASS results&body=Answers:";
+            var emailString = "mailto:" + this.email + "?subject=DASS results&body=Answers: ";
             for (let i = 0; i < this.questions.length; i++){
                 emailString += this.questions[i].answer;
             }

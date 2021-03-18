@@ -19,6 +19,8 @@ input[type=text] {
     min-height: 100vh;
     width: 100vw;
     align-content: stretch;
+    padding: 10px 12px;
+    box-sizing: border-box;
 }
 
 .content {
@@ -33,7 +35,7 @@ input[type=text] {
 }
 
 .slider {
-    width: 400px;
+    width: min(60vw, 400px);
 }
 
 .styledButton {
@@ -70,7 +72,7 @@ input[type=text] {
 
 .answer{
     width: 91px;
-    margin: 0 10px;
+    margin: 0;
 }
 
 /* .questionTable{
