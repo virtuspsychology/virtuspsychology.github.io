@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ORS | Virtus Psychology</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="manifest" href="../site.webmanifest">
+        <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="stylesheet" href="style.css">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Outcome Rating Scale."/>
+    </head>
+    <body>
+        <div id ='app' >
+            <div class="content">
+                <span>Looking back over the last week, including today, help us understand how you have been feeling by rating how well you
+                    have been doing in the following areas of your life, where marks to the left represent low levels and marks to the right
+                    indicate high levels.
+                </span>
+                <span class="onlyPrint">Name:</span>
+                <input type="text" autocomplete="chrome-off" placeholder="Name (optional)"/>
+                <span class="onlyPrint">{{date}}</span>
+                <h4>Overall</h4>
+                <span>General sense of well-being</span>
+                <input type="range" min="1" max="100" value="50" class="slider" v-model="overallValue">
+                <h4>Individually</h4>
+                <span>Personal well-being</span>
+                <input type="range" min="1" max="100" value="50" class="slider" v-model="individualValue">
+                <h4>Interpersonally</h4>
+                <span>Family, close relationships</span>
+                <input type="range" min="1" max="100" value="50" class="slider" v-model="interpersonalValue">
+                <h4>Socially</h4>
+                <span>Work, School, Friendships</span>
+                <input type="range" min="1" max="100" value="50" class="slider" v-model="socialValue">
+                <input type='text' class="noPrint" v-model="email" />
+                <button class="noPrint styledButton" @click="emailData">Email data</button>
+                <button class="noPrint styledButton" @click="printData">Print data</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+
+app = new Vue({
+    data() {
+        return {
+            email: "virtuspsychology@gmail.com",
+            overallValue: 50,
+            individualValue: 50,
+            interpersonalValue: 50,
+            socialValue: 50,
+            date: null,
+        }
+    },
+    mounted(){
+        this.date = new Date()
+    },
+    methods: {
+        printData(){
+            window.print();
+        },
+        emailData(){
+            var emailString = "mailto:" + this.email + "?subject=ORS results&body=Overall: " +
+                this.overallValue + "%0D%0AIndividually: " + this.individualValue +
+                "%0D%0AInterpersonally: " + this.interpersonalValue +
+                "%0D%0ASocially: " + this.socialValue;
+            window.location.href = emailString;
+        }
+    }
+
+}).$mount("#app");
+
+</script>
+
+<style>
+
+</style>

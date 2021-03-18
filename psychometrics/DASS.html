@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DASS | Virtus Psychology</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="manifest" href="../site.webmanifest">
+        <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="stylesheet" href="style.css">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Depression, Anxiety, and Stress Scale."/>
+    </head>
+    <body>
+        <div id ='app' >
+            <div class="content">
+                <span class="paragraph">
+                    The Depression, Anxiety, and Stress Scale.<br>
+                    Lovibond, S.H. & Lovibond, P.F. (1995).  Manual for the Depression Anxiety Stress Scales. (2nd. Ed.)  Sydney: Psychology Foundation.
+                </span>
+                <span class="paragraph">
+                    Please read each statement and circle a number 0, 1, 2 or 3 which indicates how much the statement
+                    applied to you over the past week. There are no right or wrong answers. Do not spend too much time
+                    on any statement.<br>
+                </span>
+                <div class="paragraph" style="align-self: flex-start">
+                    The rating scale is as follows:<br>
+                    0 Did not apply to me at all<br>
+                    1 Applied to me to some degree, or some of the time<br>
+                    2 Applied to me to a considerable degree, or a good part of time<br>
+                    3 Applied to me very much, or most of the time<br>
+                </div>
+                <table class="questionTable">
+                    <tr v-for="(item, index) in questions" class="questionRow">
+                        <td class="question">{{"" + (index+1) + ". " + item.question}}</td>
+                        <td class="answer">
+                            <button @click="questions[index].answer = 0" :class="{selected: questions[index].answer == 0, noPrint: questions[index].answer != 0}" class="radio">0</button>
+                            <button @click="questions[index].answer = 1" :class="{selected: questions[index].answer == 1, noPrint: questions[index].answer != 1}" class="radio">1</button>
+                            <button @click="questions[index].answer = 2" :class="{selected: questions[index].answer == 2, noPrint: questions[index].answer != 2}" class="radio">2</button>
+                            <button @click="questions[index].answer = 3" :class="{selected: questions[index].answer == 3, noPrint: questions[index].answer != 3}" class="radio">3</button>
+                        </td>
+                    </tr>
+                </table>
+                <div class="table">
+                    <span class="row">
+                        <span class="cell">
+                            Depression: {{depression}}
+                        </span>
+                        <span class="cell">
+                            Range: {{depressionRange}}
+                        </span>
+                    </span>
+                    <span class="row">
+                        <span class="cell">
+                            Anxiety: {{anxiety}}
+                        </span>
+                        <span class="cell">
+                            Range: {{anxietyRange}}
+                        </span>
+                    </span>
+                    <span class="row">
+                        <span class="cell">
+                            Stress: {{stress}}
+                        </span>
+                        <span class="cell">
+                            Range: {{stressRange}}
+                        </span>
+                    </span>
+                </div>
+                <input type='text' class="noPrint" v-model="email" />
+                <button class="noPrint styledButton" @click="emailData">Email data</button>
+                <button class="noPrint styledButton" @click="printData">Print data</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+
+app = new Vue({
+    data() {
+        return {
+            email: "virtuspsychology@gmail.com",
+            depressionIndicies: [3, 5, 10, 13, 16, 17, 21],
+            anxietyIndicies: [2, 4, 7, 9, 15, 19, 20],
+            stressIndicies: [1, 6, 8, 11, 12, 14, 18],
+            answers: [],
+            questions: [
+                {question: "I found myself getting upset by quite trivial things", answer: 0},
+                {question: "I was aware of dryness of my mouth", answer: 0},
+                {question: "I couldn't seem to experience any positive feeling at all ", answer: 0},
+                {question: "I experienced breathing difficulty (eg, excessively rapid breathing, breathlessness in the absence of physical exertion)", answer: 0},
+                {question: "I just couldn't seem to get going", answer: 0},
+                {question: "I tended to over-react to situations", answer: 0},
+                {question: "I had a feeling of shakiness (eg, legs going to give way)", answer: 0},
+                {question: "I found it difficult to relax", answer: 0},
+                {question: "I found myself in situations that made me so anxious I was most relieved when they ended", answer: 0},
+                {question: "I felt that I had nothing to look forward to", answer: 0},
+                {question: "I found myself getting upset rather easily", answer: 0},
+                {question: "I felt that I was using a lot of nervous energy", answer: 0},
+                {question: "I felt sad and depressed", answer: 0},
+                {question: "I found myself getting impatient when I was delayed in any way (eg, elevators, traffic lights, being kept waiting)", answer: 0},
+                {question: "I had a feeling of faintness", answer: 0},
+                {question: "I felt that I had lost interest in just about everything", answer: 0},
+                {question: "I felt I wasn't worth much as a person", answer: 0},
+                {question: "I felt that I was rather touchy", answer: 0},
+                {question: "I perspired noticeably (eg, hands sweaty) in the absence of high temperatures or physical exertion", answer: 0},
+                {question: "I felt scared without any good reason", answer: 0},
+                {question: "I felt that life wasn't worthwhile", answer: 0},
+                {question: "I found it hard to wind down", answer: 0},
+                {question: "I had difficulty in swallowing", answer: 0},
+                {question: "I couldn't seem to get any enjoyment out of the things I did", answer: 0},
+                {question: "I was aware of the action of my heart in the absence of physical exertion (eg, sense of heart rate increase, heart missing a beat)", answer: 0},
+                {question: "I felt down-hearted and blue", answer: 0},
+                {question: "I found that I was very irritable", answer: 0},
+                {question: "I felt I was close to panic", answer: 0},
+                {question: "I found it hard to calm down after something upset me", answer: 0},
+                {question: "I feared that I would be \"thrown\" by some trivial but unfamiliar task", answer: 0},
+                {question: "I was unable to become enthusiastic about anything", answer: 0},
+                {question: "I found it difficult to tolerate interruptions to what I was doing", answer: 0},
+                {question: "I was in a state of nervous tension", answer: 0},
+                {question: "I felt I was pretty worthless", answer: 0},
+                {question: "I was intolerant of anything that kept me from getting on with what I was doing", answer: 0},
+                {question: "I felt terrified", answer: 0},
+                {question: "I could see nothing in the future to be hopeful about", answer: 0},
+                {question: "I felt that life was meaningless", answer: 0},
+                {question: "I found myself getting agitated", answer: 0},
+                {question: "I was worried about situations in which I might panic and make a fool of myself", answer: 0},
+                {question: "I experienced trembling (eg, in the hands)", answer: 0},
+                {question: "I found it difficult to work up the initiative to do things", answer: 0},
+            ],
+            date: null,
+        }
+    },
+    mounted(){
+        this.date = new Date();
+    },
+    computed: {
+        depression(){
+            var depression = 0;
+            for (let i = 0; i < this.depressionIndicies.length; i++){
+                depression += this.questions[this.depressionIndicies[i] - 1].answer;
+                depression += this.questions[21 + (this.depressionIndicies[i] - 1)].answer;
+            }
+            return depression;
+        },
+        depressionRange(){
+            if (this.depression < 10){
+                return "Normal";
+            } else if (this.depression < 14){
+                return "Mild";
+            } else if (this.depression < 21){
+                return "Moderate";
+            } else if (this.depression < 28){
+                return "Sever";
+            } else {
+                return "Extreme";
+            }
+        },
+        anxiety(){
+            var anxiety = 0;
+            for (let i = 0; i < this.anxietyIndicies.length; i++){
+                anxiety += this.questions[this.anxietyIndicies[i] - 1].answer;
+                anxiety += this.questions[21 + (this.anxietyIndicies[i] - 1)].answer;
+            }
+            return anxiety;
+        },
+        anxietyRange(){
+            if (this.anxiety < 8){
+                return "Normal";
+            } else if (this.anxiety < 10){
+                return "Mild";
+            } else if (this.anxiety < 15){
+                return "Moderate";
+            } else if (this.anxiety < 20){
+                return "Sever";
+            } else {
+                return "Extreme";
+            }
+        },
+        stress(){
+            var stress = 0;
+            for (let i = 0; i < this.stressIndicies.length; i++){
+                stress += this.questions[this.stressIndicies[i] - 1].answer;
+                stress += this.questions[21 + (this.stressIndicies[i] - 1)].answer;
+            }
+            return stress;
+        },
+        stressRange(){
+            if (this.stress < 15){
+                return "Normal";
+            } else if (this.stress < 19){
+                return "Mild";
+            } else if (this.stress < 26){
+                return "Moderate";
+            } else if (this.stress < 34){
+                return "Sever";
+            } else {
+                return "Extreme";
+            }
+        }
+    },
+    methods: {
+        printData(){
+            window.print();
+        },
+        emailData(){
+            var emailString = "mailto:" + this.email + "?subject=DASS results&body=Answers:";
+            for (let i = 0; i < this.questions.length; i++){
+                emailString += this.questions[i].answer;
+            }
+            emailString += "%0D%0A";
+            emailString += ("Depression score: " + this.depression + ", range: " + this.depressionRange
+                + "%0D%0AAnxiety score: " + this.anxiety + ", range: " + this.anxietyRange
+                + "%0D%0AStress score: " + this.stress + ", range: " + this.stressRange);
+            window.location.href = emailString;
+        }
+    }
+
+}).$mount("#app");
+
+</script>
+
+<style>
+
+</style>
