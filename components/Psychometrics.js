@@ -12,6 +12,7 @@ const Psychometrics = Vue.component('psychometrics', {
     If you would like to keep a record of the data, please either email, print, or manually record the data.<br><br>
     <a href="psychometrics/DASS.html">Depression, Anxiety, and Stress Scale</a><br>
     <a href="psychometrics/ORS.html">Outcome Rating Scale</a><br>
+    <a href="psychometrics/Preferences.html">Therapy Preferences</a><br>
     </span>
     </div>
     </div>
