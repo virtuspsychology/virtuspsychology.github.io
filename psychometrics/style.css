@@ -20,6 +20,7 @@ input[type=text] {
     width: 100vw;
     align-content: stretch;
     padding: 10px 12px;
+    background-color: #eee;
     box-sizing: border-box;
 }
 
@@ -88,8 +89,8 @@ input[type=text] {
     padding: 12px 0;
 }
 
-tr:nth-child(odd) {background: #CCC}
-tr:nth-child(even) {background: #FFF}
+tr:nth-child(even) {background: #eee}
+tr:nth-child(odd) {background: #FFF}
 
 .table {
     display: table;

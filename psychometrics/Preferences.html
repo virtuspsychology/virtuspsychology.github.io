@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Preferences | Virtus Psychology</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="manifest" href="../site.webmanifest">
+        <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="stylesheet" href="style.css">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Cooper-Norcross Inventory of Preferences."/>
+    </head>
+    <body>
+        <div id ='app' >
+            <div class="content">
+                <span class="paragraph">
+                    Adapted from the Cooper-Norcross Inventory of Preferences
+                </span>
+                <span class="paragraph">
+                    On each of the items below, please indicate your preferences for how a psychologist should work with you
+                    by selecting a response.
+                </span>
+                <span class="paragraph">
+                    "I would like the therapist to..."
+                </span>
+                <span class="table">
+                    <span class="row" v-for="question in questions">
+                        <span class="cell" :class="{noPrint: question.ans != question.left}">
+                            <input type="radio" id="left" :value="question.left" v-model="question.ans">
+                            <label for="left">{{question.left}}</label>
+                        </span>
+                        <span class="cell" :class="{noPrint: question.ans != 'No preference'}">
+                            <input type="radio" id="middle" value="No preference" v-model="question.ans">
+                            <label for="middle">No preference</label>
+                        </span>
+                        <span class="cell" :class="{noPrint: question.ans != question.right}">
+                            <input type="radio" id="right" :value="question.right" v-model="question.ans">
+                            <label for="right">{{question.right}}</label>
+                        </span>
+                    </span>
+                </span>
+                <input type='text' class="noPrint" v-model="email" />
+                <button class="noPrint styledButton" @click="emailData">Email data</button>
+                <button class="noPrint styledButton" @click="printData">Print data</button>
+
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+
+app = new Vue({
+    methods: {
+        printData(){
+            window.print();
+        },
+        emailData(){
+            var emailString = "mailto:" + this.email + "?subject=Preferences results&body=";
+            for (let i = 0; i < this.questions.length; i++){
+                emailString += (this.questions[i].ans + "%0D%0A");
+            }
+            window.location.href = emailString;
+        }
+    },
+    data() {
+        return {
+            email: "virtuspsychology@gmail.com",
+            questions: [
+                {left: "Have a plan for each session", right: "Let each session unfold naturally", ans: "No preference"},
+                {left: "Listen to my emotions and experiences more", right: "Teach me skills and information more", ans: "No preference"},
+                {left: "Be reflective (ask questions)", right: "Be directive (tell me what to do)", ans: "No preference"},
+                {left: "Give me tasks between therapy sessions", right: "Not give me tasks between therapy sessions", ans: "No preference"},
+                {left: "Challenge my beliefs more", right: "Validate my beliefs more", ans: "No preference"},
+                {left: "Let me explore tangents which might arise during the session", right: "Keep me focused on the goals of the session", ans: "No preference"},
+            ]
+        }
+    }
+}).$mount("#app");
+</script>
