@@ -27,7 +27,7 @@ const Index = Vue.component('index', {
     <span>
     <h2 class="lander-text">In-person or telehealth therapy in Canberra</h2>
     <p class="lander-text">Contact David via email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or via SMS at
-    <a href="sms:0401609112">0401 609 112</a> to request an appointment or make an inquiry.</p>
+    <a href="sms:0491023019">0491 023 019</a> to request an appointment or make an inquiry.</p>
     </span>
     <div @click="scrollToContent" class="bounce">
     <svg xmlns="http://www.w3.org/2000/svg" height="60" viewBox="0 0 24 24" width="60"><path class="arrow" d="M7.4 8.6L12 13.2l4.6-4.6L18 10l-6 6-6-6 1.4-1.4z"/></svg>
@@ -49,7 +49,7 @@ const Index = Vue.component('index', {
     stress, anxiety, and depression. Appointments are available in-person on Mondays, or via telehealth between Tuesdays and Fridays.
     <br><br>
     To request an appointment or make an inquiry, please contact David via email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
-    via SMS at <a href="sms:0401609112">0401 609 112</a>.
+    via SMS at <a href="sms:0491023019">0491 023 019</a>.
     </div>
     </div>
     </div>`

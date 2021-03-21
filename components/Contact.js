@@ -9,7 +9,7 @@ const Contact = Vue.component('contact', {
     <span>
     To make a referral, book an appointment, or submit and inquiry, please contact me via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or via SMS at
-    <a href="sms:0401609112">0401 609 112</a>.
+    <a href="sms:0491023019">0491 023 019</a>.
     <br><br>
     You will be given the option to book a session at the Capital Clinical Psychology office space,
     or you may book an after-hours telehealth session which you can attend at your home.
