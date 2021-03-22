@@ -39,6 +39,10 @@ const FAQ = Vue.component('faq', {
     <br><br>
     In line with the APS recommended schedule of fees for sessions with a private practice psychologist, a 50 minute session will cost $260.
     <br><br>
+    <span class="question">What if I need to cancel or reschedule?</span>
+    <br><br>
+    Cancelling or rescheduling is free until 24 hours before your appointment, after which the usual fee will be charged. This fee will not be eligible for Medicare rebates.
+    <br><br>
     <span class="question">What is a mental health care plan? How does it work?</span>
     <br><br>
     A mental health care plan is a plan that you create with your doctor, aimed at improving your mental health. This plan may involve sessions with a psychologist, in
