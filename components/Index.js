@@ -36,8 +36,7 @@ const Index = Vue.component('index', {
     <div class="page-inner-frame">
     <div class="page-content" id="content">
     David O'Donohue is a registered psychologist with a Master's degree in clinical psychology.
-    He has experience helping both adults and children manage and reduce symptoms of stress, anxiety, and depression,
-    develop assertiveness skills, and reduce procrastination and avoidance.
+    He has experience helping both adults and children manage and reduce symptoms of stress, anxiety, and depression.
     <br><br>
     David uses the Unified Protocol model of therapy, a recently developed and evidence-based approach which attempts
     to combine the most useful and effective elements of CBT (cognitive behavioural therapy), ACT (acceptance and commitment therapy),
