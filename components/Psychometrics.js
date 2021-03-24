@@ -2,7 +2,7 @@ const Psychometrics = Vue.component('psychometrics', {
     template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
     <div class="page-inner-frame">
-    <div class="hero-image" style="background-image: url('./assets/puzzle.jpg')">
+    <div class="hero-image" style="background-image: url('./assets/puzzle.webp')">
     <div class="hero-text">
     <h1 class="title">Psychometrics</h1>
     </div>

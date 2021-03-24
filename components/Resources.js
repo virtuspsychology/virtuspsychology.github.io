@@ -2,7 +2,7 @@ const Resources = Vue.component('resources', {
     template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
     <div class="page-inner-frame">
-    <div class="hero-image" style="background-image: url('./assets/books.jpg')">
+    <div class="hero-image" style="background-image: url('./assets/books.webp')">
     <div class="hero-text">
     <h1 class="title">Resources</h1>
     </div>
