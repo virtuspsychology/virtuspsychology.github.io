@@ -43,6 +43,7 @@
                         </span>
                     </span>
                 </span>
+                <input type='text' v-model="other" placeholder="Any other preferences you have (optional)"/>
                 <input type='text' class="noPrint" v-model="email" />
                 <button class="noPrint styledButton" @click="emailData">Email data</button>
                 <button class="noPrint styledButton" @click="printData">Print data</button>
@@ -65,12 +66,16 @@ app = new Vue({
             for (let i = 0; i < this.questions.length; i++){
                 emailString += (this.questions[i].ans + "%0D%0A");
             }
+            if (this.other != null){
+                emailString += ("Other: " + this.other + "%0D%0A");
+            }
             window.location.href = emailString;
         }
     },
     data() {
         return {
             email: "virtuspsychology@gmail.com",
+            other: null,
             questions: [
                 {left: "Have a plan for each session", right: "Let each session unfold naturally", ans: "No preference"},
                 {left: "Listen to my emotions and experiences more", right: "Teach me skills and information more", ans: "No preference"},
