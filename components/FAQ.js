@@ -39,9 +39,11 @@ const FAQ = Vue.component('faq', {
     <br><br>
     In line with the APS recommended schedule of fees for sessions with a private practice psychologist, a 50 minute session will cost $260.
     <br><br>
-    <span class="question">What if I need to cancel or reschedule?</span>
+    <span class="question">What if I need to cancel?</span>
     <br><br>
-    Cancelling or rescheduling is free until 24 hours before your appointment, after which the usual fee will be charged. This fee will not be eligible for Medicare rebates.
+    When cancelling a booked session with less than 24 hours’ notice, the full session fee will be charged.
+    When cancelling a booked session with 24 to 48 hours’ notice, 50% of the session fee will be charged.
+    When cancelling a booked session with between 48 hours’ and 7 days’ notice, 25% of the session fee will be charged. These fees will not be eligible for a Medicare rebate.
     <br><br>
     <span class="question">What is a mental health care plan? How does it work?</span>
     <br><br>
@@ -56,7 +58,8 @@ const FAQ = Vue.component('faq', {
     <li>You give consent for this information to be shared (e.g. to a GP or other health professional)</li>
     <li>Your psychologist has reason to believe that you or someone else will be harmed if they do not disclose information. In this case, your psychologist will adopt
     a harm minimisation approach, and take the course of action they deem justifiable</li></ul><br>
-    In all cases, your psychologist will value your privacy and dignity.
+    In all cases, your psychologist will value your privacy and dignity. Additionally, your psychologist may share de-identified/anonymised information with supervisors
+    or peers for the sole purpose of improving your treatment.
     <br><br>
     </span>
     </div>
