@@ -124,6 +124,7 @@ app = new Vue({
     watch:{
         $route (to, from){
             this.menuOpen = false;
+            window.scrollTo({top: 0, behavior: 'smooth'});
         }
     }
 }).$mount("#app");
