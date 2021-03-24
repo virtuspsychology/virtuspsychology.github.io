@@ -6,7 +6,6 @@
         <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="manifest" href="./site.webmanifest">
         <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
         <link rel="stylesheet" href="style.css">
@@ -18,7 +17,6 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://virtuspsychology.com.au/#/" />
         <meta property="og:image" content="https://virtuspsychology.com.au/android-chrome-192x192.png" />
-        <script src="./assets/logovector.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192721899-1">
         </script>
@@ -35,7 +33,7 @@
             <div class="nav-container">
                 <div class="nav-bar" :class="{open: menuOpen}">
                     <router-link to="/" class="brand nav-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 3000 3000" class="logo"><path class="logo" :d="logoData" stroke-width="0.5"/></svg>
+                        <img src="logo/ckoi/bitmapsmall.png" class="logo"/>
                         <span>Home</span>
                     </router-link>
                     <router-link class="nav-item" to="/Vision"><span>Vision</span></router-link>
@@ -43,8 +41,8 @@
                     <router-link class="nav-item" to="/Resources"><span>Resources</span></router-link>
                     <router-link class="nav-item" to="/Psychometrics"><span>Psychometrics</span></router-link>
                     <a href="javascript:app.toggleNavBar()" class="menu-button">
-                        <svg v-if="!menuOpen" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" ><path d="M0 0h24v24H0z" fill="none"/><path class="svgIcon" fill="white" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
-                        <svg v-else xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path class="svgIcon" fill="white" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+                        <svg v-if="!menuOpen" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" ><path d="M0 0h24v24H0z" fill="none"/><path class="svgIcon" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                        <svg v-else xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path class="svgIcon" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
                     </a>
                 </div>
             </div>

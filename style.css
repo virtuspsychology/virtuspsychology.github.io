@@ -105,16 +105,26 @@ a:visited {
     background-color: white;
 }
 
-.nav-item:hover .logo,
-.router-link-exact-active .logo,
-.menu-button:hover .svgIcon,
-.menu-button:focus .svgIcon {
-    fill: black;
+.logo {
+    filter: invert(1);
+    margin: 0 5px;
 }
 
-.svgIcon,
-.logo {
+.nav-bar a:hover .logo,
+.nav-item.router-link-exact-active .logo {
+    filter: invert(0);
+}
+
+.svgIcon{
     fill: white;
+}
+
+.menu-button:focus .svgIcon {
+    fill: white;
+}
+
+.menu-button:hover .svgIcon {
+    fill: black;
 }
 
 .menu-button {
