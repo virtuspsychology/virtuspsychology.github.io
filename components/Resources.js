@@ -10,13 +10,13 @@ const Resources = Vue.component('resources', {
     <div class="page-content">
     <span>
     <h3>Clients - crisis options</h3>
-    <a href="tel:131114">Lifeline</a><br>
-    <a href="tel:1800551800">Kids Helpline</a><br>
-    <a href="tel:1800629354">The Crisis Assessment and Treatment Team</a><br>
-    <a href="tel:1300659467">Suicide Call Back Service</a><br>
-    <a href="tel:1300224636">Beyond Blue</a><br>
-    <a href="tel:1300789978">Mensline</a><br>
-    <a href="tel:1800650890">headspace</a><br> 
+    <a href="tel:1800629354">Access Mental Health: 1800 629 354</a><br>
+    <a href="tel:131114">Lifeline: 13 11 14</a><br>
+    <a href="tel:1800551800">Kids Helpline: 1800 551 800</a><br>
+    <a href="tel:1300659467">Suicide Call Back Service: 1300 659 467</a><br>
+    <a href="tel:1300224636">Beyond Blue: 1300 224 636</a><br>
+    <a href="tel:1300789978">Mensline: 1300 789 978</a><br>
+    <a href="tel:1800650890">Headspace: 1800 650 890</a><br> 
     <br><br>
     <h3>Clients - information</h3>
     <a href="resources/consent.pdf">Consent form</a><br>
