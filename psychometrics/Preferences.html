@@ -51,7 +51,6 @@
                 <input type='text' class="noPrint" v-model="email" />
                 <button class="noPrint styledButton" @click="emailData">Email data</button>
                 <button class="noPrint styledButton" @click="printData">Print data</button>
-
             </div>
         </div>
     </body>
@@ -80,6 +79,7 @@ app = new Vue({
         return {
             email: "virtuspsychology@gmail.com",
             other: null,
+            date: null,
             questions: [
                 {left: "Have a plan for each session", right: "Let each session unfold naturally", ans: "No preference"},
                 {left: "Listen to my emotions and experiences more", right: "Teach me skills and information more", ans: "No preference"},
@@ -88,6 +88,9 @@ app = new Vue({
                 {left: "Let me explore tangents which might arise during the session", right: "Keep me focused on the goals of the session", ans: "No preference"},
             ]
         }
-    }
+    },
+    mounted(){
+        this.date = new Date()
+    },
 }).$mount("#app");
 </script>

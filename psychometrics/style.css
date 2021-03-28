@@ -110,6 +110,11 @@ tr:nth-child(odd) {background: #FFF}
 }
 
 @media print {
+    body {
+        color: #000;
+        background: #fff;
+     }
+     
     .noPrint{
         display: none;
     }
