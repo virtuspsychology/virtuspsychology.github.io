@@ -18,7 +18,7 @@ const FAQ = Vue.component('faq', {
     <span class="question">What will happen at the first session?</span>
     <br><br>
     During the first session, your psychologist will ask you questions about your current goals and life factors. Your psychologist will ask about any
-    medication or medical conditions, suicidal thoughts, or psychotic symptoms - all clients are asked these questions, due to the critical importance they
+    medication or medical conditions, suicidal thoughts, or psychotic symptoms - all clients are asked these questions, due to the critical impact they
     may have on outcomes.
     <br><br>
     <span class="question">How will progress be measured?</span>
