@@ -41,9 +41,9 @@ const FAQ = Vue.component('faq', {
     <br><br>
     <span class="question">What if I need to cancel?</span>
     <br><br>
-    When cancelling a booked session with less than 24 hours’ notice, the full session fee will be charged.
-    When cancelling a booked session with 24 to 48 hours’ notice, 50% of the session fee will be charged.
-    When cancelling a booked session with between 48 hours’ and 7 days’ notice, 25% of the session fee will be charged. These fees will not be eligible for a Medicare rebate.
+    When cancelling a booked session with less than 24 hour's notice, the full session fee will be charged.
+    When cancelling a booked session with 24 to 48 hour's notice, 50% of the session fee will be charged.
+    When cancelling a booked session with between 48 hour's and 7 day's notice, 25% of the session fee will be charged. These fees will not be eligible for a Medicare rebate.
     <br><br>
     <span class="question">What is a mental health care plan? How does it work?</span>
     <br><br>
