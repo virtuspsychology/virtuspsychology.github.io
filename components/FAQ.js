@@ -39,16 +39,28 @@ const FAQ = Vue.component('faq', {
     <br><br>
     In line with the APS recommended schedule of fees for sessions with a private practice psychologist, a 55 minute session will cost $260.
     <br><br>
+    <span class="question">What if I can't afford that rate?</span>
+    <br><br>
+    Session frequency can be adjusted from weekly to fortnightly, monthly, or any length you prefer, to spread the financial impact of sessions over time.
+    It is also important to be aware of what other psychologists are charging, as there may be some who charge less than the recommended rate.
+    Additionally, there are low-cost mental health services such as:<ul>
+    <li><a href="https://www.canberra.edu.au/health-clinics/clinics-on-offer/psychology">University of Canberra Psychology Clinic</a></li>
+    <li><a href="https://psychology.anu.edu.au/clinic/anu-psychology-clinic">ANU Psychology Clinic</a></li>
+    <li><a href="https://racr.org.au/services/counselling-services/relationship-and-family-counselling">Relationships Australia</a></li>
+    <li><a href="https://headspace.org.au/">Headspace</a></li>
+    <li><a href="https://www.health.act.gov.au/services-and-programs/mental-health/mental-health-services">Department of Health Mental Health Services</a></li>
+    </ul>
+    <br>
     <span class="question">What if I need to cancel?</span>
     <br><br>
     When cancelling a booked session with less than 24 hour's notice, the full session fee will be charged.
     When cancelling a booked session with 24 to 48 hour's notice, 50% of the session fee will be charged.
     When cancelling a booked session with between 48 hour's and 7 day's notice, 25% of the session fee will be charged. These fees will not be eligible for a Medicare rebate.
     <br><br>
-    <span class="question">What is a mental health care plan? How does it work?</span>
+    <span class="question">What is a mental health treatment plan? How does it work?</span>
     <br><br>
-    A mental health care plan is a plan that you create with your doctor, aimed at improving your mental health. This plan may involve sessions with a psychologist, in
-    which case Medicare will provide financial assistance towards these sessions. If you are unsure whether you have or need a mental health care plan, or whether you
+    A mental health treatment plan is a plan that you create with your doctor, aimed at improving your mental health. This plan may involve sessions with a psychologist, in
+    which case Medicare will provide financial assistance towards these sessions. If you are unsure whether you have or need a mental health treatment plan, or whether you
     can expect Medicare rebates from sessions with a psychologist, speak to your GP.
     <br><br>
     <span class="question">Is my information private?</span>
