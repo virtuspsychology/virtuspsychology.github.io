@@ -25,7 +25,7 @@ const Index = Vue.component('index', {
     <div class="lander" :style="backgroundStyle">
     <span></span>
     <span>
-    <h2 class="lander-text">Evidence-based psychological therapy in Canberra</h2>
+    <h2 class="lander-text">Canberra Psychologist offering adult, adolescent, and child therapy to help manage stress, anxiety, and depression.</h2>
     <p class="lander-text">Contact David via email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or via SMS at
     <a href="sms:0491023019">0491 023 019</a> to request an appointment or make an inquiry.</p>
     </span>
