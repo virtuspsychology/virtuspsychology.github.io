@@ -38,9 +38,9 @@ const Index = Vue.component('index', {
     David O'Donohue is a registered psychologist with a Master's degree in clinical psychology.
     He has experience helping both adults and children manage and reduce symptoms of stress, anxiety, and depression.
     <br><br>
-    David uses the Unified Protocol model of therapy, a recently developed and evidence-based approach which attempts
-    to combine the most useful and effective elements of CBT (cognitive behavioural therapy), ACT (acceptance and commitment therapy),
-    and DBT (dialectical behaviour therapy).
+    David uses an integrative approach which combines theory and evidence from cognitive behavioural therapy,
+    acceptance and commitment therapy, coherence therapy, schema therapy, gestalt therapy, focusing, neuroscience, internal family systems therapy,
+    Buddhism, and Stoicism.
     His primary focus will be to understand your individual and unique circumstances, and work with
     you to help you meet your goals.
     <br><br>
