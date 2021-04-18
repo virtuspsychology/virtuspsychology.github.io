@@ -39,7 +39,7 @@ const Index = Vue.component('index', {
     He has experience helping both adults and children manage and reduce symptoms of stress, anxiety, and depression.
     <br><br>
     David uses an integrative approach which combines theory and evidence from cognitive behavioural therapy,
-    acceptance and commitment therapy, coherence therapy, schema therapy, gestalt therapy, neuroscience, focusing, internal family systems therapy,
+    acceptance and commitment therapy, mindfulness, coherence therapy, schema therapy, gestalt therapy, neuroscience, focusing, internal family systems therapy,
     Buddhism, and Stoicism.
     His primary focus will be to understand your individual and unique circumstances, and work with
     you to help you meet your goals.
