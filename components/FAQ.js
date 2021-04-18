@@ -69,7 +69,8 @@ const FAQ = Vue.component('faq', {
     stored on a server. Only your psychologist will be able to access this information. Your psychologist will not share your information with anyone unless:<ul>
     <li>You give consent for this information to be shared (e.g. to a GP or other health professional)</li>
     <li>Your psychologist has reason to believe that you or someone else will be harmed if they do not disclose information. In this case, your psychologist will adopt
-    a harm minimisation approach, and take the course of action they deem justifiable</li></ul><br>
+    a harm minimisation approach, and take the course of action they deem justifiable</li>
+    <li>Your psychologist is legally required to disclose information, e.g. when subpoenaed</li></ul><br>
     In all cases, your psychologist will value your privacy and dignity. Additionally, your psychologist may share de-identified/anonymised information with supervisors
     or peers for the sole purpose of improving your treatment.
     <br><br>
