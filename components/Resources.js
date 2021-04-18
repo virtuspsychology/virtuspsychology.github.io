@@ -18,9 +18,6 @@ const Resources = Vue.component('resources', {
     <a href="tel:1300789978">Mensline: 1300 789 978</a><br>
     <a href="tel:1800650890">Headspace: 1800 650 890</a><br> 
     <br><br>
-    <h3>Clients - information</h3>
-    <a href="resources/consent.pdf">Consent form</a><br>
-    <br><br>
     <h3>Clinicians - reference</h3>
     <a href="https://www.psychology.org.au/getmedia/23c6a11b-2600-4e19-9a1d-6ff9c2f26fae/Evidence-based-psych-interventions.pdf">Evidence-based Psychological Interventions in the Treatment of Mental Disorders</a><br>
     <a href="https://www.psychology.org.au/getmedia/d873e0db-7490-46de-bb57-c31bb1553025/18APS-Code-of-Ethics.pdf">APS Code of Ethics</a><br>

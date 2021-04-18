@@ -44,8 +44,6 @@ const Index = Vue.component('index', {
     His primary focus will be to understand your individual and unique circumstances, and work with
     you to help you meet your goals.
     <br><br>
-    David is currently accepting mental health care plan referred and self-referred clients experiencing symptoms related to
-    stress, anxiety, and depression. Appointments are available in-person on Mondays, with telehealth coming soon.
     <br><br>
     To request an appointment or make an inquiry, please contact David via email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
     via SMS at <a href="sms:0491023019">0491 023 019</a>.
@@ -53,3 +51,6 @@ const Index = Vue.component('index', {
     </div>
     </div>`
 });
+
+// David is currently accepting mental health care plan referred and self-referred clients experiencing symptoms related to
+// stress, anxiety, and depression. Appointments are available in-person on Mondays, with telehealth coming soon.
