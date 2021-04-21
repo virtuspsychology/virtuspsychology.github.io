@@ -28,7 +28,7 @@ const Integrated = Vue.component('integrated', {
     Self-Therapy by Jay Earley
     I hear you
 
-    Game-changing articles:
+    Articles:
     Book summary: Unlocking the Emotional Brain: https://www.lesswrong.com/posts/i9xyZBS3qzA8nFXNQ/book-summary-unlocking-the-emotional-brain
     Building up to an Internal Family Systems model: https://www.lesswrong.com/s/ZbmRyDN8TCpBTZSip/p/5gfqG3Xcopscta3st
     Mental mountains: https://www.lesswrong.com/posts/JJFphYfMsdFMuprBy/mental-mountains
@@ -37,6 +37,7 @@ const Integrated = Vue.component('integrated', {
     Book Review: The Secret Of Our Success: https://slatestarcodex.com/2019/06/04/book-review-the-secret-of-our-success/
     You can face reality: https://www.lesswrong.com/rationality/you-can-face-reality
     The Neuroscience of Meditation: https://opentheory.net/2018/12/the-neuroscience-of-meditation/?fbclid=IwAR2xEuSBLPw2R8Lbd8JAnLDWcau156huv-oTPWb1nwJJ0v_0gd7CKtfZdf4
+    Ten stages of meditation: https://www.consciouslifestylemag.com/ten-stages-of-meditation-complete-guide/
 
     </span>
     </div>

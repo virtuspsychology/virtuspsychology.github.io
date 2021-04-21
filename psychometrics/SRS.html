@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SRS | Virtus Psychology</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="manifest" href="../site.webmanifest">
+        <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="stylesheet" href="style.css">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Outcome Rating Scale."/>
+    </head>
+    <body>
+        <div id ='app'>
+            <div class="content">
+                <span class="paragraph">Please rate today's session by dragging the slider on the line to the place which best fits your experience. 
+                </span>
+                <input type="text" autocomplete="chrome-off" placeholder="Name (optional)"/>
+                <span class="onlyPrint">{{date}}</span>
+                <span>Relationship</span>
+                <span class="srsLine">
+                    <span class="blockDescription">
+                        I did not feel heard, understood, and respected.
+                    </span><input type="range" min="1" max="100" value="50" class="slider" v-model="relationship">
+                    <span class="blockDescription">
+                        I felt heard, understood, and respected.
+                    </span>
+                </span>
+                <span>Goals and Topics</span>
+                <span class="srsLine">
+                    <span class="blockDescription">
+                        We did not work on or talk about what I wanted to work on and talk about.
+                    </span><input type="range" min="1" max="100" value="50" class="slider" v-model="goalsTopics">
+                    <span class="blockDescription">
+                        We worked on and talked about what I wanted to work on and talk about.
+                    </span>
+                </span>
+                <span>Approach or Method</span>
+                <span class="srsLine">
+                    <span class="blockDescription">
+                        The therapist's approach is not a good fit for me.
+                    </span><input type="range" min="1" max="100" value="50" class="slider" v-model="approachMethod">
+                    <span class="blockDescription">
+                        The therapist's approach is a good fit for me.
+                    </span>
+                </span>
+                <span>Overall</span>
+                <span class="srsLine">
+                    <span class="blockDescription">
+                        There was something missing in the session today.
+                    </span><input type="range" min="1" max="100" value="50" class="slider" v-model="overall">
+                    <span class="blockDescription">
+                        Overall, today's session was right for me.
+                    </span>
+                </span>
+                <input type='text' class="noPrint" v-model="email" />
+                <button class="noPrint styledButton" @click="emailData">Email data</button>
+                <button class="noPrint styledButton" @click="printData">Print data</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+
+app = new Vue({
+    data() {
+        return {
+            email: "virtuspsychology@gmail.com",
+            overall: 50,
+            relationship: 50,
+            goalsTopics: 50,
+            approachMethod: 50,
+            date: null,
+        }
+    },
+    mounted(){
+        this.date = new Date()
+    },
+    methods: {
+        printData(){
+            window.print();
+        },
+        emailData(){
+            var emailString = "mailto:" + this.email + "?subject=SRS results&body=Relationship: " +
+                this.relationship + "%0D%0AGoals and Topics: " + this.goalsTopics +
+                "%0D%0AApproach or Method: " + this.approachMethod +
+                "%0D%0AOverall: " + this.overall;
+            window.location.href = emailString;
+        }
+    }
+
+}).$mount("#app");
+
+</script>
+
+<style>
+
+    .srsLine {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5px 0;
+    }
+
+    .blockDescription {
+        word-break: break-word;
+        text-align: justify;
+        max-width: min(100px, 20vw);
+        margin: 0 5px;
+    }
+
+</style>
