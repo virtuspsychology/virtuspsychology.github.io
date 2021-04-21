@@ -11,6 +11,7 @@ const Psychometrics = Vue.component('psychometrics', {
     <span>Please note: to preserve confidentiality, no data is recorded and autocomplete is explicitly disabled.
     If you would like to keep a record of the data, please either email, physically print, print to pdf, or manually record the data.<br><br>
     <a href="psychometrics/DASS.html">Depression, Anxiety, and Stress Scale</a><br>
+    <a href="psychometrics/SRS.html">Session Rating Scale</a><br>
     <a href="psychometrics/ORS.html">Outcome Rating Scale</a><br>
     <a href="psychometrics/Preferences.html">Therapy Preferences</a><br>
     </span>
