@@ -188,6 +188,10 @@ a:visited {
     font-style: italic;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .footer {
     width: 100vw;
     display: flex;
