@@ -1,14 +1,17 @@
-const Alternatives = Vue.component('alternatives', {
+const Fees = Vue.component('fees', {
     template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
     <div class="page-inner-frame">
     <div class="hero-image" style="background-image: url('./assets/doors.webp')">
     <div class="hero-text">
-    <h1 class="title">Alternatives</h1>
+    <h1 class="title">Fees</h1>
     </div>
     </div>
     <div class="page-content">
     <span>
+    A 60-minute session will cost $260. If you have a Mental Health Treatment Plan, this fee is eligible for a
+    $88.25 rebate.
+    <br><br>
     <h3>Crisis services</h3><br>
     Virtus Psychology does not provide crisis support. If you require urgent care, please contact one of the below services.<br><br> 
     <a href="tel:1800629354">Access Mental Health: 1800 629 354</a><br>

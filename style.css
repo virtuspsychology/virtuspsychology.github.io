@@ -192,6 +192,10 @@ a:visited {
     font-weight: bold;
 }
 
+.italics {
+    font-style: italic;
+}
+
 .footer {
     width: 100vw;
     display: flex;
