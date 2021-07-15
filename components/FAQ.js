@@ -37,7 +37,7 @@ const FAQ = Vue.component('faq', {
     <br><br>
     <span class="question">How much do you charge?</span>
     <br><br>
-    In line with the APS recommended schedule of fees for sessions with a private practice psychologist, a 60 minute session will cost $260.
+    A 60 minute session will cost $260.
     If you have a Mental Health Treatment Plan, you will be eligible for a rebate of $88.25.
     <br><br>
     <span class="question">What if I can't afford that rate?</span>
