@@ -56,7 +56,3 @@ const Index = Vue.component('index', {
     </div>
     </div>`
 });
-
-// David is currently accepting mental health care plan referred and self-referred clients experiencing symptoms related to
-// stress, anxiety, and depression. Appointments are available in-person on Mondays, with telehealth coming soon.
-// <br><br>

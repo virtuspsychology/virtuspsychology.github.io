@@ -9,7 +9,7 @@ const Fees = Vue.component('fees', {
     </div>
     <div class="page-content">
     <span>
-    A 60-minute session will cost $260. If you have a Mental Health Treatment Plan, this fee is eligible for a
+    A 60 minute session will cost $260. If you have a Mental Health Treatment Plan, this fee is eligible for a
     $88.25 rebate.
     <br><br>
     <h3>Crisis services</h3><br>

@@ -10,7 +10,7 @@ const FAQ = Vue.component('faq', {
     <div class="page-content">
     <span class="question">What can I expect from therapy?</span>
     <br><br>
-    Therapy will involve working collaboratively with your psychologist over the course of several 55 minute sessions. Your psychologist
+    Therapy will involve working collaboratively with your psychologist over the course of several 60 minute sessions. Your psychologist
     is an expert on evidence-based treatments and interventions, and you are an expert on the factors in your own life, what you have tried before,
     what has/hasn't worked, and your own goals and values. You may discuss the problems you are having in your life, learn and/or practice
     various skills, experiment with different ways of thinking and/or behaving, and develop greater insight into yourself or others.
