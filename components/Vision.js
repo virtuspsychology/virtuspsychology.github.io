@@ -15,7 +15,7 @@ const Vision = Vue.component('vision', {
     Conceptualising virtue in this way allows for forgiveness and self-compassion instead of judgement and shame. It also provides both a tangible reason
     to act ethically, as well as an empirical basis for determining what virtue and ethics actually are.
     <br><br>
-    Our aim is to help others develop skills and habits which typically result in positive outcomes, through evidence-based therapeutic interventions and
+    Our aim is to help others cultivate qualities and habits which typically result in positive outcomes, through evidence-based therapeutic interventions and
     the latest research in psychology.
     </span>
     </div>
