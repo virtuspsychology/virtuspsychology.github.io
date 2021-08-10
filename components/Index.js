@@ -28,9 +28,12 @@ const Index = Vue.component('index', {
     <h2 class="lander-text">Canberra Psychologist offering adult, adolescent, and child therapy for
     depression, anxiety, stress, complex trauma and PTSD, relationship and attachment issues,
     and chronic pain.</h2>
-    <p class="lander-text">Contact David via email at
+    <p class="lander-text">Appointments can be booked through the
+    <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
+    <br><br>
+    To make an inquiry, or for assistance in booking an appointment, please contact David via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or via SMS at
-    <a href="sms:0491023019">0491 023 019</a> to request an appointment or make an inquiry.</p>
+    <a href="sms:0491023019">0491 023 019</a></p>
     </span>
     <div @click="scrollToContent" class="bounce">
     <svg xmlns="http://www.w3.org/2000/svg" height="60" viewBox="0 0 24 24" width="60"><path class="arrow" d="M7.4 8.6L12 13.2l4.6-4.6L18 10l-6 6-6-6 1.4-1.4z"/></svg>
@@ -50,7 +53,10 @@ const Index = Vue.component('index', {
     David's main areas of interest are interventions which result in lasting changes to activity patterns
     in the default mode network, and the insight into and resolution of subconscious internal conflicts.
     <br><br>
-    To request an appointment or make an inquiry, please contact David via email at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
+    Appointments can be booked through the
+    <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
+    To make an inquiry, or for assistance in booking an appointment, please contact David via email at
+    <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
     via SMS at <a href="sms:0491023019">0491 023 019</a>.
     </div>
     </div>
