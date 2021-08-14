@@ -28,7 +28,7 @@ const Index = Vue.component('index', {
     <h2 class="lander-text">Canberra Psychologist offering adult, adolescent, and child therapy for
     depression, anxiety, stress, complex trauma and PTSD, relationship and attachment issues,
     and chronic pain.</h2>
-    <p class="lander-text">Appointments can be booked on
+    <p class="lander-text">Appointments can be booked through
     <router-link to="/Booking">the booking page</router-link>, or through the
     <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
     <br><br>
@@ -66,7 +66,7 @@ const Index = Vue.component('index', {
     in the default mode network, and the insight into and resolution of conscious or subconscious
     internal conflicts.
     <br><br>
-    Appointments can be booked on
+    Appointments can be booked through
     <router-link to="/Booking">the booking page</router-link>, or through the
     <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
     To make an inquiry, or for assistance in booking an appointment, please contact David via email at
