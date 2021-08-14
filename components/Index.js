@@ -57,7 +57,7 @@ const Index = Vue.component('index', {
     He has experience helping adults, adolescents, and children manage their mental health.
     <br><br>
     David uses an integrative approach which synthesises theory and evidence from eye movement
-    desentitisation and reprocessing (EMDR), cognitive behavioural therapy (CBT), acceptance and
+    desensitisation and reprocessing (EMDR), cognitive behavioural therapy (CBT), acceptance and
     commitment therapy (ACT), schema therapy, coherence therapy, cognitive processing therapy,
     narrative therapy, mindfulness, gestalt therapy, neuroscience, focusing, internal family systems
     therapy, Buddhism, and Stoicism.
