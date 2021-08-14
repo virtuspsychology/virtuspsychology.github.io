@@ -147,6 +147,22 @@ a:visited {
     align-items: center;
 }
 
+.booking-system {
+    width: 100vw;
+    box-sizing: border-box;
+    border: 0;
+    height: calc(100vh - 50px);
+}
+
+.important-info {
+    background-color: #D98880;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+    border: dotted black 2px;
+    border-radius: 10px;
+}
+
 .page-inner-frame {
     flex-grow: 1;
     width: 100vw;

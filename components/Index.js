@@ -28,7 +28,8 @@ const Index = Vue.component('index', {
     <h2 class="lander-text">Canberra Psychologist offering adult, adolescent, and child therapy for
     depression, anxiety, stress, complex trauma and PTSD, relationship and attachment issues,
     and chronic pain.</h2>
-    <p class="lander-text">Appointments can be booked through the
+    <p class="lander-text">Appointments can be booked on
+    <router-link to="/Booking">the booking page</router-link>, or through the
     <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
     <br><br>
     To make an inquiry, or for assistance in booking an appointment, please contact David via email at
@@ -41,19 +42,32 @@ const Index = Vue.component('index', {
     </div>
     <div class="page-inner-frame">
     <div class="page-content" id="content">
+    <div class="important-info">
+    COVID-19 information: To prevent the spread of COVID-19, the following precautions have been made:<br>
+    <ul>
+    <li>David has recieved both Pfizer COVID-19 vaccinations</li>
+    <li>Payment and bookings are fully contactless</li>
+    <li>Telehealth appointments are available, and existing appointments can be swapped to telehealth appointments</li>
+    <li>Masks should be worn during sessions</li>
+    <li>Rebookings and cancellations are accepted</li>
+    <li>If you are sick, please either swap to a telehealth, cancel, or reschedule your appointment</li>
+    </ul>
+    </div>
     David O'Donohue is a registered psychologist with a Master's degree in clinical psychology.
     He has experience helping adults, adolescents, and children manage their mental health.
     <br><br>
-    David uses an integrative approach which combines theory and evidence from eye movement
+    David uses an integrative approach which synthesises theory and evidence from eye movement
     desentitisation and reprocessing (EMDR), cognitive behavioural therapy (CBT), acceptance and
     commitment therapy (ACT), schema therapy, coherence therapy, cognitive processing therapy,
     narrative therapy, mindfulness, gestalt therapy, neuroscience, focusing, internal family systems
     therapy, Buddhism, and Stoicism.
     <br><br>
     David's main areas of interest are interventions which result in lasting changes to activity patterns
-    in the default mode network, and the insight into and resolution of subconscious internal conflicts.
+    in the default mode network, and the insight into and resolution of conscious or subconscious
+    internal conflicts.
     <br><br>
-    Appointments can be booked through the
+    Appointments can be booked on
+    <router-link to="/Booking">the booking page</router-link>, or through the
     <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
     To make an inquiry, or for assistance in booking an appointment, please contact David via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
