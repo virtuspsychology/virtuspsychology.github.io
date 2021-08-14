@@ -45,7 +45,7 @@ const Index = Vue.component('index', {
     <div class="important-info">
     COVID-19 information: To prevent the spread of COVID-19, the following precautions have been made:<br>
     <ul>
-    <li>David has recieved both Pfizer COVID-19 vaccinations</li>
+    <li>David has received both Pfizer COVID-19 vaccinations</li>
     <li>Payment and bookings are fully contactless</li>
     <li>Telehealth appointments are available, and existing appointments can be swapped to telehealth appointments</li>
     <li>Masks should be worn during sessions</li>
