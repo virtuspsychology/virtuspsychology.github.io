@@ -43,14 +43,15 @@ const Index = Vue.component('index', {
     <div class="page-inner-frame">
     <div class="page-content" id="content">
     <div class="important-info">
-    COVID-19 information: To prevent the spread of COVID-19, the following precautions have been made:<br>
+    COVID-19 information: In-person sessions will recommence on Wednesday 1st September.
+    To help prevent the spread of COVID-19, the following precautions will be made:<br>
     <ul>
     <li>David has received both Pfizer COVID-19 vaccinations</li>
     <li>Payment and bookings are fully contactless</li>
     <li>Telehealth appointments are available, and existing appointments can be swapped to telehealth appointments</li>
     <li>Masks should be worn during sessions</li>
-    <li>Rebookings and cancellations are accepted</li>
-    <li>If you are sick, please either swap to a telehealth, cancel, or reschedule your appointment</li>
+    <li>Rebookings and cancellations are accepted without the cancellation fee</li>
+    <li>If you are sick, please either swap to telehealth, cancel, or reschedule your appointment</li>
     </ul>
     </div>
     David O'Donohue is a registered psychologist with a Master's degree in clinical psychology.
