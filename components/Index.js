@@ -54,7 +54,8 @@ const Index = Vue.component('index', {
     <li>If you are sick, please either swap to telehealth, cancel, or reschedule your appointment</li>
     </ul>
     </div>
-    David O'Donohue is a registered psychologist with a Master's degree in clinical psychology.
+    David O'Donohue is a registered psychologist and a clinical psychology registrar
+    with a Master's degree in clinical psychology.
     He has experience helping adults, adolescents, and children manage their mental health.
     <br><br>
     David uses an integrative approach which synthesises theory and evidence from eye movement
