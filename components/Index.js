@@ -58,15 +58,17 @@ const Index = Vue.component('index', {
     with a Master's degree in clinical psychology.
     He has experience helping adults, adolescents, and children manage their mental health.
     <br><br>
-    David uses an integrative approach which synthesises theory and evidence from eye movement
-    desensitisation and reprocessing (EMDR), cognitive behavioural therapy (CBT), acceptance and
-    commitment therapy (ACT), schema therapy, coherence therapy, cognitive processing therapy,
-    narrative therapy, mindfulness, gestalt therapy, neuroscience, focusing, internal family systems
-    therapy, Buddhism, and Stoicism.
+    David's approach to therapy involves creating a safe space to explore emotions, values, motivations,
+    and patterns of interpreting and responding to the world and the self. Creating this safe space involves
+    cultivating an attitude of understanding, compassion, and acceptance for ourselves, our past,
+    and our responses.
     <br><br>
-    David's main areas of interest are interventions which result in lasting changes to activity patterns
-    in the default mode network, and the insight into and resolution of conscious or subconscious
-    internal conflicts.
+    David works with clients to come to a shared formulation of the client's current
+    situation and goals, and how this formulation can be enriched with theory, evidence, and clinical
+    experience from eye movement desensitisation and reprocessing (EMDR),
+    cognitive behavioural therapy (CBT), acceptance and commitment therapy (ACT), schema therapy,
+    coherence therapy, cognitive processing therapy, narrative therapy, mindfulness, gestalt therapy,
+    neuroscience, focusing, internal family systems therapy, Buddhism, and Stoicism.
     <br><br>
     Appointments can be booked through
     <router-link to="/Booking">the booking page</router-link>, or through the
