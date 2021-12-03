@@ -54,16 +54,16 @@ const Index = Vue.component('index', {
     <li>If you are sick, please either swap to telehealth, cancel, or reschedule your appointment</li>
     </ul>
     </div>
-    David O'Donohue is a registered psychologist and a clinical psychology registrar
-    with a Master's degree in clinical psychology.
-    He has experience helping adults, adolescents, and children manage their mental health.
+    Hello! My name is David O'Donohue, and I am a registered psychologist and clinical psychology registrar.
+    I have a Master's degree in clinical psychology, and have experience helping adults, adolescents,
+    and children manage their mental health.
     <br><br>
-    David's approach to therapy involves creating a safe space to explore emotions, values, motivations,
-    and patterns of interpreting and responding to the world and the self. Creating this safe space involves
-    cultivating an attitude of understanding, compassion, and acceptance for ourselves, our past,
-    and our responses.
+    My approach to therapy involves creating a safe space to explore
+    emotions, behaviour, and intuitions about ourselves and the world, some of which may be
+    conflicting or confronting. I also aim to be guided by my values of openness, compassion, non-judgement,
+    authenticity, and effort.
     <br><br>
-    David works with clients to come to a shared formulation of the client's current
+    I work collaboratively with clients to come to a shared understanding of the client's current
     situation and goals, and how this formulation can be enriched with theory, evidence, and clinical
     experience from eye movement desensitisation and reprocessing (EMDR),
     cognitive behavioural therapy (CBT), acceptance and commitment therapy (ACT), schema therapy,
@@ -73,7 +73,7 @@ const Index = Vue.component('index', {
     Appointments can be booked through
     <router-link to="/Booking">the booking page</router-link>, or through the
     <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
-    To make an inquiry, or for assistance in booking an appointment, please contact David via email at
+    To make an inquiry, or for assistance in booking an appointment, please contact me via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
     via SMS at <a href="sms:0491023019">0491 023 019</a>.
     </div>
