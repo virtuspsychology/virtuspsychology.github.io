@@ -58,13 +58,13 @@ const Index = Vue.component('index', {
     I have a Master's degree in clinical psychology, and have experience helping adults, adolescents,
     and children manage their mental health.
     <br><br>
-    My approach to therapy involves creating a safe space to explore
-    emotions, behaviour, and intuitions about ourselves and the world, some of which may be
+    My approach to therapy involves creating a safe space to explore beliefs,
+    emotions, behaviours, and intuitions about ourselves and the world, some of which may be
     conflicting or confronting. I also aim to be guided by my values of openness, compassion, non-judgement,
     authenticity, and effort.
     <br><br>
     I work collaboratively with clients to come to a shared understanding of the client's current
-    situation and goals, and how this formulation can be enriched with theory, evidence, and clinical
+    situation and goals, and how this understanding can be enriched with theory, evidence, and clinical
     experience from eye movement desensitisation and reprocessing (EMDR),
     cognitive behavioural therapy (CBT), acceptance and commitment therapy (ACT), schema therapy,
     coherence therapy, cognitive processing therapy, narrative therapy, mindfulness, gestalt therapy,
