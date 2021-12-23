@@ -58,20 +58,18 @@ const Index = Vue.component('index', {
     I have a Master's degree in clinical psychology, and have experience helping adults, adolescents,
     and children manage their mental health.
     <br><br>
-    My approach to therapy involves creating a safe space to explore beliefs,
-    emotions, behaviours, and intuitions about ourselves and the world, some of which may be
-    conflicting or confronting. I also aim to be guided by my values of openness, compassion, non-judgement,
+    My approach to therapy involves using compassion and non-judgement to create a safe space.
+    Once a safe space has been established, we can begin to explore conscious and unconscious beliefs,
+    emotions, behaviours, and intuitions about ourselves and the world. Bringing conflicting or confronting
+    aspects of our minds into conscious awareness with an attitude of openness, compassion, and curiosity
+    allows for the resolution of these conflicts and an acceptance of ourselves. I work collaboratively and
+    non-directively with clients to come to a shared understanding of the client's current
+    situation and goals, and how this understanding can be enriched with theory, evidence, and clinical
+    experience. I also aim to be guided by my values of openness, compassion, non-judgement,
     authenticity, and effort.
     <br><br>
-    I work collaboratively with clients to come to a shared understanding of the client's current
-    situation and goals, and how this understanding can be enriched with theory, evidence, and clinical
-    experience from eye movement desensitisation and reprocessing (EMDR),
-    cognitive behavioural therapy (CBT), acceptance and commitment therapy (ACT), schema therapy,
-    coherence therapy, cognitive processing therapy, narrative therapy, mindfulness, gestalt therapy,
-    neuroscience, focusing, internal family systems therapy, Buddhism, and Stoicism.
-    <br><br>
-    Appointments can be booked through
-    <router-link to="/Booking">the booking page</router-link>, or through the
+    I am currently accepting new clients. New and existing clients can make appointments either online
+    through <router-link to="/Booking">the booking page</router-link>, or through the
     <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
     To make an inquiry, or for assistance in booking an appointment, please contact me via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
