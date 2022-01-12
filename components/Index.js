@@ -42,25 +42,13 @@ const Index = Vue.component('index', {
     </div>
     <div class="page-inner-frame">
     <div class="page-content" id="content">
-    <div class="important-info">
-    COVID-19 information: In-person sessions will recommence on Wednesday 1st September.
-    To help prevent the spread of COVID-19, the following precautions will be made:<br>
-    <ul>
-    <li>David has received both Pfizer COVID-19 vaccinations</li>
-    <li>Payment and bookings are fully contactless</li>
-    <li>Telehealth appointments are available, and existing appointments can be swapped to telehealth appointments</li>
-    <li>Masks should be worn during sessions</li>
-    <li>Rebookings and cancellations are accepted without the cancellation fee</li>
-    <li>If you are sick, please either swap to telehealth, cancel, or reschedule your appointment</li>
-    </ul>
-    </div>
     Hello! My name is David O'Donohue, and I am a registered psychologist and clinical psychology registrar.
     I have a Master's degree in clinical psychology, and have experience helping adults, adolescents,
     and children manage their mental health.
     <br><br>
     My approach to therapy involves using compassion and non-judgement to create a safe space.
     Once a safe space has been established, we can begin to explore conscious and unconscious beliefs,
-    emotions, behaviours, and intuitions about ourselves and the world. Bringing conflicting or confronting
+    emotions, behaviours, and intuitions about ourselves and the world. Bringing conflicting
     aspects of our minds into conscious awareness with an attitude of openness, compassion, and curiosity
     allows for the resolution of these conflicts and an acceptance of ourselves. I work collaboratively and
     non-directively with clients to come to a shared understanding of the client's current
