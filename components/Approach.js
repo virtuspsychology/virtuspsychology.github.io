@@ -2,7 +2,7 @@ const Approach = Vue.component('approach', {
     template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
     <div class="page-inner-frame">
-    <div class="hero-image" style="background-image: url('./assets/books.webp')">
+    <div class="hero-image" style="background-image: url('./assets/eye.jpg')">
     <div class="hero-text">
     <h1 class="title">Approach</h1>
     </div>
@@ -53,7 +53,6 @@ const Approach = Vue.component('approach', {
     If you have a strong inner critic, the critic is there to make sure you meet a specific standard
     - it will punish you, to avoid you being punished by others.
     </li>
-    <li>
     These processes do their job exceptionally well. This doesn't mean that everything they present to you
     is truthful, but their goal is to protect you.
     If you are compelled to addiction, eating disorders, manipulation, deceitfulness, impulsivity,
