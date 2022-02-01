@@ -46,15 +46,9 @@ const Index = Vue.component('index', {
     I have a Master's degree in clinical psychology, and have experience helping adults, adolescents,
     and children manage their mental health.
     <br><br>
-    My approach to therapy involves using compassion and non-judgement to create a safe space.
-    Once a safe space has been established, we can begin to explore conscious and unconscious beliefs,
-    emotions, behaviours, and intuitions about ourselves and the world. Bringing conflicting
-    aspects of our minds into conscious awareness with an attitude of openness, compassion, and curiosity
-    allows for the resolution of these conflicts and an acceptance of ourselves. I work collaboratively and
-    non-directively with clients to come to a shared understanding of the client's current
-    situation and goals, and how this understanding can be enriched with theory, evidence, and clinical
-    experience. I also aim to be guided by my values of openness, compassion, non-judgement,
-    authenticity, and effort.
+    I work collaboratively and non-directively with clients to come to a shared understanding of the
+    client's current situation and goals, and how this understanding can be enriched with theory,
+    evidence, and clinical experience.
     <br><br>
     I am currently accepting new clients. New and existing clients can make appointments either online
     through <router-link to="/Booking">the booking page</router-link>, or through the
