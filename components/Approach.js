@@ -22,11 +22,11 @@ const Approach = Vue.component('approach', {
     This is natural, too; if something is keeping you safe, it makes sense to keep it around, even if it's
     not actually needed anymore - just in case it is.
     <br><br>
-    Through my training, research, experience, and reflections, I have noticed a few insights which are
-    useful for therapeutic change. Most successful therapeutic paradigms include at least one of these insights,
-    and many insights are present, under different names, in many therapeutic paradigms. 
-    Some of these insights may have occurred to you, and so the importance of each varies from person to person.
-    I would like to continually update and refine this list, but for now, the insights I have noticed are
+    Through my training, research, experience, and reflections, I have noticed a few components which are
+    useful for therapeutic change. Most successful therapeutic paradigms include at least one of these components,
+    and many components are present, under different names, in many therapeutic paradigms. 
+    Some of these components may already be present for you, and so the importance of each varies from person to person.
+    I would like to continually update and refine this list, but for now, the components I have noticed are
     discussed in subsequent paragraphs.
     <br><br>
     The more important an interpretation feels to survival, the more your mind "fuses" with it
