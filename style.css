@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Maven Pro';
     max-width: 100%;
     max-height: 100%;
     line-height: 1.5;
@@ -43,12 +43,19 @@ a:visited {
     background-attachment:fixed;
     padding: 48px 0 0 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: left;
     flex-direction: column;
     padding: 2vh 2vw;
     box-sizing: border-box;
     text-align: center;
+}
+
+.lander-visuals{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .lander-text {
@@ -74,8 +81,6 @@ a:visited {
     min-height: 50px;
     position: fixed;
     top: 0;
-    color: white;
-    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -88,36 +93,40 @@ a:visited {
     display:flex;
     align-items:center;
     justify-content: center;
-}
-
-.nav-bar a{
-    color: white;
-    flex-grow: 1;
-    border: none;
-    text-decoration: none;
-    text-align: center;
-    transition-duration: 0.4s;
-}
-
-.nav-bar a:hover,
-.nav-item.router-link-exact-active {
-    color: black;
     background-color: white;
 }
 
-.logo {
+.nav-bar a{
+    color: black;
+    flex-grow: 1;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    text-decoration: none;
+    text-align: center;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+
+.nav-bar a:hover,
+.nav-bar a.router-link-exact-active {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+/* .logo {
     height: 50px;
     object-fit: cover;
     filter: invert(1);
     margin: 0 5px;
-}
+} */
 
-.nav-bar a:hover .logo,
+/* .nav-bar a:hover .logo,
 .nav-item.router-link-exact-active .logo {
     filter: invert(0);
-}
+} */
 
-.svgIcon{
+/* .svgIcon{
     fill: white;
 }
 
@@ -127,7 +136,7 @@ a:visited {
 
 .menu-button:hover .svgIcon {
     fill: black;
-}
+} */
 
 .menu-button {
     display: none;
@@ -277,18 +286,21 @@ a:visited {
     .logo {
         display: none;
     }
-        .menu-button {
+    .menu-button {
         display: flex;
     }
     .nav-item{
         display: none;
     }
-    .nav-bar.open .nav-item{
+
+    .nav-bar.open .nav-item, .nav-bar.open a.router-link-exact-active {
         display: flex;
         padding: 13px 0;
     }
     .menu-button{
         padding: 13px 0;
+        border-top: none;
+        border-bottom: none;
     }
     .nav-bar{
         flex-direction: column;

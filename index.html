@@ -7,6 +7,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
         <link rel="manifest" href="./site.webmanifest">
         <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro">
         <link rel="stylesheet" href="style.css">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
@@ -58,13 +59,13 @@
                 <div class="nav-bar" :class="{open: menuOpen}">
                     <router-link to="/" class="brand nav-item">
                         <img src="logo/ckoi/bitmapsmall.webp" class="logo"/>
-                        <span>Home</span>
+                        <span> Virtus Psychology</span>
                     </router-link>
-                    <router-link class="nav-item" to="/Booking"><span>Booking</span></router-link>
+                    <router-link  to="/Booking" class="nav-item"><span>Booking</span></router-link>
                     <!-- <router-link class="nav-item" to="/Approach"><span>Approach</span></router-link> -->
-                    <router-link class="nav-item" to="/FAQ"><span>FAQ</span></router-link>
-                    <router-link class="nav-item" to="/Vision"><span>Vision</span></router-link>
-                    <router-link class="nav-item" to="/Fees"><span>Fees</span></router-link>
+                    <router-link to="/FAQ" class="nav-item"><span>FAQ</span></router-link>
+                    <router-link to="/Vision" class="nav-item"><span>Vision</span></router-link>
+                    <router-link to="/Fees" class="nav-item"><span>Fees</span></router-link>
                     <a href="javascript:app.toggleNavBar()" class="menu-button">
                         <svg v-if="!menuOpen" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" ><path d="M0 0h24v24H0z" fill="none"/><path class="svgIcon" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
                         <svg v-else xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path class="svgIcon" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
@@ -80,15 +81,16 @@
                         Opening hours
                     </span><br>
                     <span>Wednesday: 10am to 6pm</span><br>
-                    <span>Friday: 10am to 6pm</span>
+                    <span>Friday: 10am to 6pm</span><br>
+                    <span>Flexible hours for telehealth appointments on request, subject to availability</span>
                 </div>
                 <div class="footer-block">
                     <span class="footer-header">Address</span><br>
                     <span><a href="https://www.google.com/maps/search/?api=1&query=Virtus+Psychology">Capital Clinical Psychology<br>
                     Level 1, 5 Sargood Street<br>
                     O'Connor, ACT, 2602</a>
-                    <!-- <br>
-                    <span>Or in-home via telehealth</span> -->
+                    <br>
+                    <span>Or in-home via telehealth</span>
                 </div>
                 <div class="footer-block">
                     <span class="footer-header">Contact details</span><br>
