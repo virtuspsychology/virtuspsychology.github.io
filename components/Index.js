@@ -26,8 +26,9 @@ const Index = Vue.component('index', {
     template: `<div class="page-outer-frame">
     <div class="lander" :style="backgroundStyle">
     <span class="lander-visuals">
-    <h1 class="lander-text">David O'Donohue</h1>
-    <p class="lander-text">Trauma-informed Psychologist</p>
+    <h1 class="lander-text">Trauma-informed psychology</h1>
+    <p class="lander-text">To book an appointment, visit the <router-link to="/Booking">booking page</router-link>, or email
+    David at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a>.
     <div @click="scrollToContent" class="bounce">
     <svg xmlns="http://www.w3.org/2000/svg" height="60" viewBox="0 0 24 24" width="60"><path class="arrow" d="M7.4 8.6L12 13.2l4.6-4.6L18 10l-6 6-6-6 1.4-1.4z"/></svg>
     </div>
