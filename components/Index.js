@@ -75,8 +75,9 @@ const Index = Vue.component('index', {
     judgement]"). Thirdly, a person may have internalised a strong inner critic, and may display that critic to others as well.
     Knowing these things about why judgement might arise can allow you to look at any judgemental thoughts that your mind generates
     and think, "what are these thoughts protecting me from?". As such, I typically don't judge clients for anything at all. However,
-    this is not to say that I think that the fear of being judged is bad in some way - it is being generated from a place of
-    self-protection, and this place has likely been quite useful to you in the past.
+    this is not to say that I think that the fear of being judged is bad in some way - if it is present,
+    it is probably being generated from a place of
+    self-protection, and this place has likely been quite useful in the past.
     <br><br>
     I am currently accepting new clients. New and existing clients can make appointments either online
     through <router-link to="/Booking">the booking page</router-link>, or through the
