@@ -37,54 +37,78 @@ const Index = Vue.component('index', {
     <div class="page-inner-frame">
     <div class="page-content" id="content">
     Hello! My name is David O'Donohue, and I am a registered psychologist and clinical psychology registrar.
-    <br><br>
-    My main area of interest is complex trauma. Our minds generate a range of different thoughts, feelings, and impulses, all of
-    which have evolved because they are beneficial to our success as a species. Anxiety protects us against danger, sadness protects
-    us against wasting limited resources, and anger gives us the energy to improve an unfair situation. Sometimes, our mind learns
-    that a certain emotion is either unacceptable (because any effect of that emotion leads to drastically negative outcomes,
-    e.g. "I'll give you something to cry about" can lead to the idea that sadness is unacceptable), or vital (because the absence
-    of that emotion leads to drastically negative outcomes, e.g. "If I'm not anxious, I will miss the warning signs of danger").
-    When the mind is no longer free to let emotions come and go, and instead either needs an particular emotion to be present
-    all of the time or never at all, some unpleasant consequences can result.
-    <br><br>
-    If an emotion is deemed unacceptable, the experience of the emotion will be greatly intensified.
-    If you think that anxiety is ruining your life, you
-    might get anxious about being anxious. If you think that sadness is a sign of weakness, or a sign that you will never
-    enjoy anything, you might get sad about being sad. If you hate how angry you are, you might get angry when you feel the beginnings
-    of anger. Or, any combination of distressing emotion in response to a distressing emotion, leading to an intensely unpleasant
-    experience, confirming your mind's conscious or unconscious predictions about the emotion.
-    <br><br>
-    If an emotion is deemed vital, our mind can get into the habit of maintaining this emotion,
-    and over the years the original need for the emotion can be forgotten. If this emotion is unpleasant, we may develop some
-    resentment or resistance to the emotion, which can feed into the cycle that the above paragraph illustrates.
-    <br><br>
-    Many people enter therapy with the goal of eliminating the unpleasant emotion. However, it is often this goal which perpetuates
-    the distress, because it results in a much more intense experience of the emotion when it does arise. I envision the goal of
-    therapy to be a reduction in the intensity of the distress, by paradoxically being more accepting and tolerant of the emotion.
-    Becoming aware of pre-conscious mental processes and understanding their history and function can lead to a place where 
-    compassion and gratitude can be felt for the previously unwanted emotions. Imagery rescripting can help to set these processes
-    on a more adaptive track, through memory reconsolidation.
-    <br><br>
-    A quick note on judgement and shame: being judged or feeling shamed for the unwanted emotion, or a behaviour aimed at
-    eliminating the unwanted emotion, is a very common precursor to the kind of mental health stuggles identified above, and so it can
-    be normal for the mind to anticipate being judged by a therapist. In my mind, judgement arises under several possible conditions.
-    Firstly, feeling judgemental is a psychological defence against feeling inferior to someone. Feeling inferior can be distressing,
-    and so finding something to judge that person on can be soothing. Secondly, a person may not have enough information to understand
-    a course of action, and without understanding the reasons behind a course of action, a negative judgement can bridge the gap and
-    reduce uncertainty ("I don't understand why this person did that" compared to "this person did that because they are [negative
-    judgement]"). Thirdly, a person may have internalised a strong inner critic, and may display that critic to others as well.
-    Knowing these things about why judgement might arise can allow you to look at any judgemental thoughts that your mind generates
-    and think, "what are these thoughts protecting me from?". As such, I typically don't judge clients for anything at all. However,
-    this is not to say that I think that the fear of being judged is bad in some way - if it is present,
-    it is probably being generated from a place of
-    self-protection, and this place has likely been quite useful in the past.
-    <br><br>
     I am currently accepting new clients. New and existing clients can make appointments either online
     through <router-link to="/Booking">the booking page</router-link>, or through the
     <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
     To make an inquiry, or for assistance in booking an appointment, please contact me via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
-    via SMS at <a href="sms:0491023019">0491 023 019</a>.
+    via SMS at <a href="sms:0491023019">0491 023 019</a>. Some extra information about my approach and theoretical orientation
+    is below. 
+    <br><br>
+    My main area of interest is complex trauma. Our minds generate a range of different thoughts, feelings, and impulses, all of
+    which have evolved because they are beneficial to our success as a species. Anxiety protects us against danger, sadness protects
+    us against wasting limited resources, and anger gives us the energy to improve an unfair situation. Mental health can suffer
+    when a person forms a conditioned association between the sensations of a distressing emotion, and something catastrophic.
+    This can happen when a child's parents respond to the child's normal emotions in an unhelpful way
+    (because distressing emotions are learned to lead to more distress, e.g. "I'll give you something to cry about"),
+    or when the child experiences a traumatic event (because the emotions become associated with that event).
+    <br><br>
+    This leads to a person <span class="bold">rejecting their internal experience</span>
+    (because it has so much negative association), or <span class="bold">becoming so
+    overwhelmed by their internal experience that all other internal experiences are drowned out</span>.
+    These two processes can reinforce themselves and each other.
+    <br><br>
+    If the mind predicts a lot of
+    distress will follow from an aspect of experience, having that experience will cause the mind to generate a lof of distress, which
+    is then a self-fulfilling prophecy. This is on the level of reward/punishment association, but thoughts and beliefs
+    can play into this as well.
+    For example, if you think that anxiety is ruining your life, you
+    might get anxious about being anxious. If you think that sadness is a sign of weakness, or a sign that you will never
+    enjoy anything, you might get sad about being sad. If you hate how angry you are, you might get angry when you feel the beginnings
+    of anger. Or, any combination of distressing emotion in response to a distressing emotion, leading to an intensely unpleasant
+    experience, which again confirms your mind's conscious or unconscious predictions about the internal experience.
+    <br><br>
+    If the mind is overwhelmed by an internal experience to the extent that other internal experiences are drowned out, this
+    can also be problematic. When you are anxious, you are more attuned to sources of danger, more likely to
+    interpret things as dangerous, and more likely to remember or predict dangerous things.
+    The same applies to sadness and anger. When the emotion takes over and starts changing our perceptions, predictions, and the theme
+    of the memories that are brought up, it can reinforce the emotion, and lead to more suffering.
+    <br><br>
+    Where mental health suffers, there is typically a pattern in which a normal and tolerable internal experience begins and
+    is quickly intensified to a level which feels intolerable. Then, the emotion is either repressed, or takes the driver's seat
+    and propagates itself.
+    <br><br>
+    So, why not just repress, or eliminate the distressing emotion? This is something that many people try to do, and it is the initial
+    goal of many people who start therapy. However, I think this is problematic as a goal. Firstly, I'm not sure if it is possible
+    to completely eliminate a distressing emotion. Secondly, viewing the emotion as something which is intrinsically negative
+    and something to be eliminated is one of the things which perpetuates suffering. Thirdly, the distress intolerance which results
+    from complex trauma is the driving force behind many of the behaviours people come to therapy for in the first place, such as
+    addiction, suicide, and self-harm. Finally, revisiting the reason we have
+    distressing emotions in the first place, if we eliminate a distressing emotion, we lose the potential benefits it can bring us.
+    People who attempt to suppress anger, for example, can often struggle with assertiveness.
+    <br><br>
+    Instead of eliminating distressing internal experiences, I think it can sometimes be more helpful to change your relationship
+    with them. The way I typically approach this process is to use parts work and mindfulness to understand the different aspects
+    of a client's internal experience. Understanding generally results in more gratitude and compassion for the internal experience,
+    and subsequently the experience can be better tolerated, and isn't intensified. Imagery rescripting can be used to
+    reconsolidate some of the stronger memories or associations.
+    <br><br>
+    Some really cool conclusions fall out of all of this. Issues with mental health develop for reasons which are all part of a
+    well-functioning brain. We have evolved to have distressing emotions, and to resist them, and to have them overwhelm us
+    when they are strong enough (because this means that action is urgent, so everything else needs to be drowned out).
+    So, suffering from mental health issues isn't the sign of a pathology, it's a normal part of human experience. Also,
+    it means that mental health isn't something which is genetically based and unchangeable. Even where a person does have a genetic
+    propensity to experience more distressing emotions, it all comes down to your relationship with those emotions, rather than
+    the emotions themselves.
+    <br><br>
+    My theoretical orientation is primarily Internal Family Systems Therapy, however this approach has significant overlap with
+    some other forms of therapy you may be familiar with, such as Acceptance and Commitment Therapy, Compassion-focused Therapy,
+    Ego State Therapy, Voice Dialogue, Focusing, Compassionate Inquiry, and probably many others which I have yet to encounter.
+    The summary of this approach is to explicitly acknowledge and work with conflicting beliefs/emotions/impulses to gain deeper
+    insight into the mind, and change your relationship with each part of the mind to be more accepting and compassionate,
+    allowing for more distress tolerance, and allowing for the positive function of each emotion to emerge.
+    Notably, while I was initially trained in CBT, I have since moved away from practicing it as I find it too pathologising,
+    and perpetuates the resistance of internal experience through combatitive approaches such as cognitive challenging.
     </div>
     </div>
     </div>`
