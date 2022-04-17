@@ -107,8 +107,6 @@ const Index = Vue.component('index', {
     The summary of this approach is to explicitly acknowledge and work with conflicting beliefs/emotions/impulses to gain deeper
     insight into the mind, and change your relationship with each part of the mind to be more accepting and compassionate,
     allowing for more distress tolerance, and allowing for the positive function of each emotion to emerge.
-    Notably, while I was initially trained in CBT, I have since moved away from practicing it as I find it too pathologising,
-    and perpetuates the resistance of internal experience through combatitive approaches such as cognitive challenging.
     </div>
     </div>
     </div>`
