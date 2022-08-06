@@ -28,9 +28,9 @@ const Article = Vue.component('article', {
     template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
     <div class="page-inner-frame">
-    <h3>{{$route.params.id}}</h3>
+    <h3>{{ this.content.title }}</h3>
     <br><br>
-    Text here
+    {{ this.content.text }}
     </div>
     </div>`
 });
