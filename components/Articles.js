@@ -2,7 +2,7 @@ const Articles = Vue.component('articles', {
     data() {
         return {
             articles: [
-            "equanimity"
+            {title: "Equanimity", key: "equanimity", preview: "Nothing yet"},
             ]
         }
     },
@@ -16,7 +16,11 @@ const Articles = Vue.component('articles', {
     </div>
     <div class="page-content">
     <span>
-    <p v-for="article in articles">{{article.title}}</p>
+    Here are some living articles which represent what I have learned or concluded about various concepts.
+    <br><br>
+    <ul>
+    <article-tile v-for="article in articles" :prop=article></article-tile>
+    </ul>
     </span>
     </div>
     </div>

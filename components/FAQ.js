@@ -11,7 +11,7 @@ const FAQ = Vue.component('faq', {
     <span class="question">How much do you charge?</span>
     <br><br>
     A 60 minute session will cost $260.
-    If you have a Mental Health Treatment Plan, you will be eligible for a rebate of $88.25 from Medicare.
+    If you have a Mental Health Treatment Plan, you will be eligible for a rebate of $89.65 from Medicare.
     <br><br>
     <span class="question">What is a mental health treatment plan? How does it work?</span>
     <br><br>

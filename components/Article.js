@@ -7,11 +7,9 @@ const Article = Vue.component('article', {
     },
     async created() {
         const id = this.$route.params.id;
-        // Assuming your JSON file in in the root directory
         const response = await fetch(`components/Articles/${id}.json`);
         const content = await response.json();
         this.content = content;
-        console.log(this.content);
     },
     // methods : {
     //     loadContent(){
@@ -28,6 +26,7 @@ const Article = Vue.component('article', {
     template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
     <div class="page-inner-frame">
+    <br><br>
     <h3>{{ this.content.title }}</h3>
     <br><br>
     {{ this.content.text }}

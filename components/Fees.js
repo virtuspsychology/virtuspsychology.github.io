@@ -10,7 +10,7 @@ const Fees = Vue.component('fees', {
     <div class="page-content">
     <span>
     A 60 minute session will cost $260. If you have a Mental Health Treatment Plan, this fee is eligible for a
-    $88.25 rebate from Medicare.
+    $89.65 rebate from Medicare.
     <br><br>
     <h3>Crisis services</h3><br>
     Virtus Psychology does not provide crisis support. If you require urgent care, please contact one of the below services.<br><br> 
