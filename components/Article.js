@@ -30,7 +30,7 @@ const Article = Vue.component('article', {
     // },
     template: `<div class="page-outer-frame">
     <div class="lander-filler"></div>
-    <div class="page-inner-frame">
+    <div v-if="content" class="page-inner-frame">
     <br><br>
     <h3>{{ this.content.title }}</h3>
     <br><br>
