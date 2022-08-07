@@ -7,8 +7,11 @@ const Article = Vue.component('article', {
     },
     async created() {
         const id = this.$route.params.id;
+        console.log("id: ", id);
         const response = await fetch(`components/Articles/${id}.json`);
+        console.log("response: ", response);
         const content = await response.json();
+        console.log("content: ", content);
         this.content = content;
     },
     // methods : {

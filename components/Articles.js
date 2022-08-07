@@ -1,3 +1,14 @@
+const ArticleTile = Vue.component('article-tile', {
+    props: ['article'],
+    template: `<div class="article-tile">
+    <router-link :to="'/Articles/' + article.key">
+    <h3>{{article.title}}</h3><br>
+    {{article.preview}}
+    </router-link>
+    </div>`
+});
+
+
 const Articles = Vue.component('articles', {
     data() {
         return {
@@ -18,9 +29,7 @@ const Articles = Vue.component('articles', {
     <span>
     Here are some living articles which represent what I have learned or concluded about various concepts.
     <br><br>
-    <ul>
-    <article-tile v-for="article in articles" :prop=article></article-tile>
-    </ul>
+    <article-tile v-for="article in articles" :article="article"></article-tile>
     </span>
     </div>
     </div>

@@ -273,6 +273,14 @@ a:visited {
     }
   }
 
+  .article-tile {
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+    max-width: 330px;
+    padding: 10px;
+  }
 /* mobile */
 @media (max-width: 599px) {
     .footer {
