@@ -22,10 +22,16 @@
 
 /* mobile */
 @media (max-width: 599px) {
+    .text-content {
+        padding: 10px;
+    }
 }
 
 /* tablet */
 @media (min-width: 600px) {
+    .text-content {
+        padding: 10px;
+    }
 }
 
 /* laptop */
