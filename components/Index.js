@@ -59,7 +59,7 @@ const Index = Vue.component('index', {
     These two processes can reinforce themselves and each other.
     <br><br>
     If the mind predicts a lot of
-    distress will follow from an aspect of experience, having that experience will cause the mind to generate a lof of distress, which
+    distress will follow from an aspect of experience, having that experience will cause the mind to generate a lot of distress, which
     is then a self-fulfilling prophecy. This is on the level of reward/punishment association, but thoughts and beliefs
     can play into this as well.
     For example, if you think that anxiety is ruining your life, you
