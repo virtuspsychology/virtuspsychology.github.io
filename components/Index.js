@@ -26,7 +26,7 @@ const Index = Vue.component('index', {
     template: `<div class="page-outer-frame">
     <div class="lander" :style="backgroundStyle">
     <span class="lander-visuals">
-    <h1 class="lander-text">Trauma-informed psychology</h1>
+    <h1 class="lander-text">David O'Donohue | Psychologist | Clinical Psychology Registrar</h1>
     <p class="lander-text">To book an appointment, visit the <router-link to="/Booking">booking page</router-link>, or email
     David at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a>.
     <div @click="scrollToContent" class="bounce">
@@ -45,7 +45,7 @@ const Index = Vue.component('index', {
     via SMS at <a href="sms:0491023019">0491 023 019</a>. Some extra information about my approach and theoretical orientation
     is below. 
     <br><br>
-    My main area of interest is complex trauma. Our minds generate a range of different thoughts, feelings, and impulses, all of
+    Our minds generate a range of different thoughts, feelings, and impulses, all of
     which have evolved because they are beneficial to our success as a species. Anxiety protects us against danger, sadness protects
     us against wasting limited resources, and anger gives us the energy to improve an unfair situation. Mental health can suffer
     when a person forms a conditioned association between the sensations of a distressing emotion, and something catastrophic.
@@ -82,7 +82,7 @@ const Index = Vue.component('index', {
     goal of many people who start therapy. However, I think this is problematic as a goal. Firstly, I'm not sure if it is possible
     to completely eliminate a distressing emotion. Secondly, viewing the emotion as something which is intrinsically negative
     and something to be eliminated is one of the things which perpetuates suffering. Thirdly, the distress intolerance which results
-    from complex trauma is the driving force behind many of the behaviours people come to therapy for in the first place, such as
+    from distress leading to worse outcomes is the driving force behind many of the behaviours people come to therapy for in the first place, such as
     addiction, suicide, and self-harm. Finally, revisiting the reason we have
     distressing emotions in the first place, if we eliminate a distressing emotion, we lose the potential benefits it can bring us.
     People who attempt to suppress anger, for example, can often struggle with assertiveness.
