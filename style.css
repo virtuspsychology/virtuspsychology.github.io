@@ -159,6 +159,14 @@ a:visited {
     color: white;
   }
 
+.avatar {
+    margin: 0 30px 0 0;
+    border-radius: 50%;
+    max-width: 20%;
+    max-height: 20%;
+    float: left;
+}
+
 .brand {
     display: flex;
     justify-content: center;

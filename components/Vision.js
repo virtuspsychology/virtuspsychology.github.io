@@ -9,14 +9,15 @@ const Vision = Vue.component('vision', {
     </div>
     <div class="page-content">
     <span>
-    Virtus is a latin word which means "moral strength", and is the etymological root of the word "virtue". Many ancient Greek and Roman philosophers
+    Virtus is a latin word which means "moral strength", and is the etymological root of the word "virtue". Many ancient and contemporary philosophers
     thought of virtue or ethics not as following rules set by an external authority, but as qualities or actions which typically result in positive outcomes.
     <br><br>
     Conceptualising virtue in this way allows for forgiveness and self-compassion instead of judgement and shame. It also provides both a tangible reason
     to act ethically, as well as an empirical basis for determining what virtue and ethics actually are.
     <br><br>
-    Our aim is to help others cultivate qualities and habits which typically result in positive outcomes, through evidence-based therapeutic interventions and
-    the latest research in psychology.
+    However, like many things, this can become quite paradoxical. Should we strive to be nonstriving? Should we be attached to the
+    idea of not being attached? Should we criticise ourselves for being self-critical? Should we stop using "shoulds"? Is it good
+    to stop judging things as "good" or "bad"? Can we accept the present moment without rejecting our resistance to it?
     </span>
     </div>
     </div>

@@ -26,7 +26,7 @@ const Index = Vue.component('index', {
     template: `<div class="page-outer-frame">
     <div class="lander" :style="backgroundStyle">
     <span class="lander-visuals">
-    <h1 class="lander-text">David O'Donohue | Psychologist | Clinical Psychology Registrar</h1>
+    <h1 class="lander-text">David O'Donohue</h1><br><h3 class="lander-text"> Psychologist | Clinical Psychology Registrar</h3>
     <p class="lander-text">To book an appointment, visit the <router-link to="/Booking">booking page</router-link>, or email
     David at <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a>.
     <div @click="scrollToContent" class="bounce">
@@ -36,6 +36,7 @@ const Index = Vue.component('index', {
     </div>
     <div class="page-inner-frame">
     <div class="page-content" id="content">
+    <img src="profile.webp" alt="image" class="avatar" title="Here is a photo of me, in case you were wondering">
     Hello! My name is David O'Donohue, and I am a registered psychologist and clinical psychology registrar.
     I am currently accepting new clients. New and existing clients can make appointments either online
     through <router-link to="/Booking">the booking page</router-link>, or through the

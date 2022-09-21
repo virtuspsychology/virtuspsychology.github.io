@@ -20,7 +20,8 @@ const Fees = Vue.component('fees', {
     <a href="tel:1300659467">Suicide Call Back Service: 1300 659 467</a><br>
     <a href="tel:1300224636">Beyond Blue: 1300 224 636</a><br>
     <a href="tel:1300789978">Mensline: 1300 789 978</a><br>
-    <a href="tel:1800650890">Headspace: 1800 650 890</a><br> 
+    <a href="tel:1800650890">Headspace: 1800 650 890</a><br>
+    <a href="tel:1800184527">QLife: 1800 184 527</a><br>
     <br><br>
     <h3>Low-cost alternatives</h3><br>
     <a href="https://www.canberra.edu.au/health-clinics/clinics-on-offer/psychology">University of Canberra Psychology Clinic</a><br>
@@ -28,6 +29,10 @@ const Fees = Vue.component('fees', {
     <a href="https://racr.org.au/services/counselling-services/relationship-and-family-counselling">Relationships Australia</a><br>
     <a href="https://headspace.org.au/">Headspace</a><br>
     <a href="https://www.health.act.gov.au/services-and-programs/mental-health/mental-health-services">Department of Health Mental Health Services</a><br>
+    <br><br>
+    <h3>Online resources</h3><br>
+    <a href="https://integralguide.com/">The Integral Guide to Well-Being</a><br>
+    <a href="https://einzelganger.co/">Einzelgänger</a>
     </span>
     </div>
     </div>
