@@ -167,6 +167,12 @@ a:visited {
     float: left;
 }
 
+.quote {
+    font-style: italic;
+    display: inline-block;
+    margin: 0 5vw;
+}
+
 .brand {
     display: flex;
     justify-content: center;
