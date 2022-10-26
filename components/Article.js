@@ -10,8 +10,9 @@ const Article = Vue.component('article', {
         const response = await fetch(`components/Articles/${id}.html`);
         console.log("reponse: ", response);
         if (response.ok){
-            // const content = await response.json();
-            // this.content = content;
+            const content = await response.text();
+            console.log("content: ", content);
+            this.content = content;
         } else {
             router.push("/Invalid");
         }
