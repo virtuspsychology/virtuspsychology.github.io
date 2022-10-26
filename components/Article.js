@@ -12,6 +12,7 @@ const Article = Vue.component('article', {
         if (response.ok){
             const content = await response.text();
             console.log("content: ", content);
+            console.log("typeof content :", typeof(content));
             this.content = content;
         } else {
             router.push("/Invalid");
