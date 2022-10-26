@@ -43,8 +43,8 @@ const Index = Vue.component('index', {
     <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
     To make an inquiry, or for assistance in booking an appointment, please contact me via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
-    via SMS at <a href="sms:0491023019">0491 023 019</a>. Some extra information about my approach and theoretical orientation
-    is below. 
+    via SMS at <a href="sms:0491023019">0491 023 019</a>. Some extra information about my practice
+    is below.
     <br><br>
     Our minds generate a range of different thoughts, feelings, and impulses, all of
     which have evolved because they are beneficial to our success as a species. Anxiety protects us against danger, sadness protects

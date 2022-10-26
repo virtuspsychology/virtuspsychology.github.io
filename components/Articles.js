@@ -13,7 +13,7 @@ const Articles = Vue.component('articles', {
     data() {
         return {
             articles: [
-            {title: "Equanimity", key: "equanimity", preview: "Nothing yet"},
+            // {title: "Equanimity", key: "equanimity", preview: "Nothing yet"},
             ]
         }
     },
