@@ -35,7 +35,7 @@ const Article = Vue.component('article', {
     <div class="lander-filler"></div>
     <div v-if="content" class="page-inner-frame">
     <br><br>
-    {{ this.content }}
+    <div v-html="this.content"></div>
     </div>
     </div>`
 });
