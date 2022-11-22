@@ -49,15 +49,6 @@ const Index = Vue.component('index', {
     via SMS at <a href="sms:0491023019">0491 023 019</a>. Some extra information about my practice
     is below. 
     <br><br>
-    <button class="collapsible" @click="toggle(collapsible-content-1)">The controversial stuff</button>
-    <span class="collapsible-content-1">
-    I have a <router-link to="/Articles/transdiagnostic">transdiagnostic</router-link> approach to therapy, which basically means that I
-    don't think that diagnoses are useful in most cases. Instead of a diagnosis, I'm interested in what each person would like to be
-    different about their lives.
-    </span>
-
-
-    <br><br>
     Our minds generate a range of different thoughts, feelings, and impulses, all of
     which have evolved because they are beneficial to our success as a species. Anxiety protects us against danger, sadness protects
     us against wasting limited resources, and anger gives us the energy to improve an unfair situation. Mental health can suffer
