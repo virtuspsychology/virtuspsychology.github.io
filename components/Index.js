@@ -3,6 +3,9 @@ const Index = Vue.component('index', {
         scrollToContent(){
             var yValue = window.innerHeight - 50;
             window.scrollTo({top:yValue, behavior: 'smooth'});
+        },
+        toggle(event, id){
+            console.log("event: ", event)
         }
     },
     data() {
@@ -44,7 +47,16 @@ const Index = Vue.component('index', {
     To make an inquiry, or for assistance in booking an appointment, please contact me via email at
     <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
     via SMS at <a href="sms:0491023019">0491 023 019</a>. Some extra information about my practice
-    is below.
+    is below. 
+    <br><br>
+    <button class="collapsible" @click="toggle(collapsible-content-1)">The controversial stuff</button>
+    <span class="collapsible-content-1">
+    I have a <router-link to="/Articles/transdiagnostic">transdiagnostic</router-link> approach to therapy, which basically means that I
+    don't think that diagnoses are useful in most cases. Instead of a diagnosis, I'm interested in what each person would like to be
+    different about their lives.
+    </span>
+
+
     <br><br>
     Our minds generate a range of different thoughts, feelings, and impulses, all of
     which have evolved because they are beneficial to our success as a species. Anxiety protects us against danger, sadness protects
