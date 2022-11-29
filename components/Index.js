@@ -41,7 +41,7 @@ const Index = Vue.component('index', {
     <div class="page-content" id="content">
     <img src="profile.webp" alt="image" class="avatar" title="Here is a photo of me, in case you were wondering">
     Hello! My name is David O'Donohue, and I am a registered psychologist and clinical psychology registrar.
-    I am currently accepting new clients. New and existing clients can make appointments either online
+    I am not accepting new clients at the moment. Existing clients can make appointments either online
     through <router-link to="/Booking">the booking page</router-link>, or through the
     <a href="https://www.halaxy.com/profile/virtus-psychology/location/626281" target="_blank">Halaxy online portal</a>.
     To make an inquiry, or for assistance in booking an appointment, please contact me via email at
