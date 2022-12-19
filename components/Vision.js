@@ -16,7 +16,8 @@ const Vision = Vue.component('vision', {
     to act ethically, as well as an empirical basis for determining what virtue and ethics actually are.
     <br><br>
     However, like many things, this can become quite paradoxical. Should we strive to be nonstriving? Should we be attached to the
-    idea of not being attached? Should we criticise ourselves for being self-critical? Should we stop using "shoulds"? Is it good
+    idea of not being attached? Should we criticise ourselves for being self-critical? Should we be openminded about being closeminded,
+    or inflexibly flexible? Should we stop using "shoulds"? Is it good
     to stop judging things as "good" or "bad"? Are we really accepting the present moment if we are rejecting our resistance to it?
     Very confusing.<br><br>
     <span class="quote">
