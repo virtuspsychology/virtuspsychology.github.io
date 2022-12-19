@@ -48,6 +48,12 @@ const Index = Vue.component('index', {
                 To make an inquiry, or for assistance in booking an appointment, please contact me via email at
                 <a href="mailto:virtuspsychology@gmail.com">virtuspsychology@gmail.com</a> or
                 via SMS at <a href="sms:0491023019">0491 023 019</a>.
+                <br><br>
+                If you are a potential client who is looking for a psychologist, I can recommend
+                <a href="https://flexiblepsyche.com.au" target="_blank">Rosalie Poesiat at Flexible Psyche</a>, who is currently
+                taking on new clients. I can also recommend one of the psychologists at either
+                <a href="https://www.lanternpsychology.com.au/" target="_blank">Lantern Psychology Centre</a> or
+                <a href="https://capitalclinicalpsychology.com/about-dr-torres/our-practitioners/" target="_blank">Capital Clinical Psychology</a>.
             </div>
         </div>
     </div>`
