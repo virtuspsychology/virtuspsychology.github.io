@@ -25,12 +25,21 @@ a:visited {
     color: lightskyblue;
 }
 
-.page-content a {
+.page-content a  {
     color: mediumblue;
 }
 
 .page-content a:visited {
     color: royalblue;
+}
+
+.contents-button {
+    color: mediumblue;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: medium;
 }
 
 .lander {
@@ -61,6 +70,7 @@ a:visited {
 .lander-text {
     margin: 2vh 2vw;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .lander-filler {
