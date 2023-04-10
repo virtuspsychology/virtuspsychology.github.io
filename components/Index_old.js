@@ -70,72 +70,167 @@ const Index = Vue.component('index', {
                 <button class="contents-button" ref="mindfulness" @click="scrollToSection('mindfulness')">Mindfulness</button><br>
                 <button class="contents-button" ref="imagery" @click="scrollToSection('imagery')">Imagery</button><br>
                 <br>
-                <span ref="summary">
-                    <h3>Summary</h3><br>
-                    Text
-                </span>
+                <details>
+                <summary>Benefits of?</summary>
+                <p>I think it can be helpful to view mental health not as a pathology, but in terms of internal conflict.
+                This internal conflict
+                might be conscious (e.g. the way you think and feel about things changes in different situations), or subconscious
+                (e.g. you are experiencing an emotion or thinking pattern which you aren't finding helpful, or wish you didn't have).</p>
+                </details>
+
                 <br><br>
-                <span ref="mental-health">
-                    <h3>What is mental health?</h3><br>
-                    There is a book called the DSM-5 (Diagnostic and Statistical Manual of Mental Disorders), which at the moment
-                    is how mental disorders are defined. I think there are some positives to this, and some negatives.
-                    <br><br>
-                    The positives I see are that, if you have a diagnosis, you can get a sense that other people have gone through
-                    something similar to what you are going through. You can also look into what may have worked for those people.
-                    <br><br>
-                    The negatives I see are that the book describes "disorders". In reality, people who meet the criteria for one
-                    of these "disorders" are usually just responding to their experiences in a way which makes perfect sense and
-                    was adaptive at one point in time. Also, there is a lot of research which indicates that the categories aren't
-                    as helpful as you might expect. Currently it seems like 1) experiencing strong emotions, 2) viewing some emotions
-                    as intrinsically bad, and 3) trying to suppress or avoid those emotions, are all significant predictors of a range
-                    of different depressive and anxious "disorders", as well as "borderline personality disorder", and there are some
-                    components of therapy which are helpful for a range of different "disorders".
-                    <br><br>
-                    So, if we don't fully accept the DSM, what is mental health? What sort of things indicate someone might benefit
-                    from a psychologist, and what might the benefit look like?
-                    <br><br>
-                    Emotions like anger, sadness, and fear don't seem to be intrinsically bad - people go on rollercoasters,
-                    or watch movies, or listen to songs, or attend competitive events, where these emotions are expected and enjoyed.
-                    It seems like there is emotion, and then there is suffering.
-                    <br><br>
-                    In my experience, suffering takes three forms:<br>
-                    <ul>
-                    <li>Identification with a part of the mind that wants another part of the mind to be different</li>
-                    <li>Alternating between identifying with two parts of the mind, each of which wants the other part
-                    to be different</li>
-                    <li>Identification with a part of the mind which wants to hold onto or achieve something</li>
-                    </ul>
-                    <br>
-                    
-                    
-                    This first form is when a person has a certain emotional reaction
-                    to something, but also feels like they shouldn't have that reaction. We could say that a part of their mind
-                    thinks it is valid to have this emotional reaction, and a part of their mind believes it isn't valid, and the
-                    person identifies with the idea that the reaction isn't valid. Some examples of this would be feeling like you
-                    want less fear, less sadness, or less anger. It also includes identifying with each part of the mind at different
-                    points in time, like feeling like you should do a particular thing at one point, and then later feeling like you
-                    don't like that you did that thing.
-                    <br><br>
-                    The second form is when there isn't any internal conflict, but 
-                    <br><br>
-                    I think it makes sense to say that <span class="bold">suffering is identifying with an attachment to the idea
-                    that things should be a certain way</span>. This is probably quite vague, but hopefully will make sense by the
-                    end of the page.
-                    <br><br>
-                    This definition would include having a feeling, such as fear, sadness, or anger, and not wanting to have that feeling.
-                    This would also include the feeling that everything would be solved if you manage to get a particular job
-                    or relationship or status., or craving/delusion
-                </span>
+
+                <details>
+                <summary>Paradoxes</summary>
+                <p></p>
+                </details>
+
+                <details>
+                <summary>Implicit memory</summary>
+                <p></p>
+                </details>
+
+                <details>
+                <summary>Experiential learning</summary>
+                <p></p>
+                </details>
+
+                <details>
+                <summary></summary>
+                <p></p>
+                </details>
+
+                <details>
+                <summary>The development of internal conflict</summary>
+                <p>If we view mental
+                health in terms of internal conflict, I think it makes sense to say that any internal conflict involves two parts of
+                the brain/mind responding in ways which are conflicting, with each part responding appropriately in some context.
                 <br><br>
-                <span ref="parts">
-                    <h3>Parts of the mind</h3><br>
-                    Text
-                </span>
+                As a concrete example, imagine that your mind wants you to seek out ice-cream, and avoid a particular person who
+                isn't nice to you. Both of these drives make sense, but when you see this person selling ice-cream, you might start
+                to experience internal conflict, even though both of these drives still make sense in their own context.
                 <br><br>
-                <span ref="paradox">
-                    <h3>Paradoxes and dialectics</h3><br>
-                    Text
-                </span>
+                This is an example of conscious internal conflict (e.g. part of you wants to go buy an ice-cream, part of you doesn't),
+                but the internal conflict can be subconscious as well. Human minds are great at learning to do things like breathe,
+                walk, and drive, without much need for conscious control. In the same way, human minds can learn that it is appropriate
+                to feel or think in certain ways, without there being much conscious decision making or control.
+                <br><br>
+                Elephant minds do
+                this as well (along with probably many other species, whose psychology I haven't studied). As baby elephants learn
+                that they can't pull a stake out of the ground, the decision to not try to pull the stake out of the ground becomes
+                more and more automatic, and less and less conscious or deliberate. This means that the decision to not try
+                to pull the stake out of the ground is made automatically and outside of conscious awareness, even when that is no longer
+                the best decision to
+                make.<br><br></p>
+                </details>
+
+                <br><br>
+
+                <details>
+                <summary>Mental health and internal conflict</summary>
+                <p></p>
+                </details>
+
+                <br><br>
+
+                <details>
+                <summary>Awareness and acceptance</summary>
+                <p></p>
+                </details>
+
+                <br><br>
+
+                <details>
+                <summary>Conclusion</summary>
+                <p></p>
+                </details>
+
+                <br><br>
+                An idea which I believe is relevant to this view of mental health is that many things exist in a spectrum,
+                with each end of the spectrum being complementary, interconnected, in a constant
+                state of motion, and with each end of the spectrum transforming into the other.
+                <br><br>
+                As an example which everyone
+                can relate to, there is the sleep/wake cycle. Alertness and sleepiness can be seen as two opposing states that are
+                interconnected and in constant flux, with one state leading to the other. The more time you spend awake, the sleepier
+                you become, and the more time you spend asleep, the more alert you can be. If a person tried to always be alert, they
+                would paradoxically become very sleepy, and if a person tried to sleep as much as possible, they may not be able to
+                sleep much at all.
+                <br><br>
+                The key ideas are that each part of the spectrum is helpful in the right context, and resisting the natural flow
+                can have a paradoxical outcome.
+                <br><br>
+                I think that this idea applies to mental health, as well. If we look at all of the emotions and thinking patterns
+                the human brain generates, it makes sense to say that due to evolutionary pressure, they can all be useful or helpful
+                in the right context (e.g. aversive emotions can be useful in getting us to avoid situations which might be bad for our
+                survival, and pleasant emotions can be useful in getting us to pursue situations which might be good for our survival).
+                I also think that
+                avoiding or suppressing distressing emotions or thinking patterns can lead to paradoxical outcomes.
+                <br><br>
+                If we view mental
+                health in terms of internal conflict, I think it makes sense to say that any internal conflict involves two parts of
+                the brain/mind responding in ways which are conflicting, with each part responding appropriately in some context.
+                <br><br>
+                As a concrete example, imagine that your mind wants you to seek out ice-cream, and avoid a particular person who
+                isn't nice to you. Both of these drives make sense, but when you see this person selling ice-cream, you might start
+                to experience internal conflict, even though both of these drives still make sense in their own context.
+                <br><br>
+                This is an example of conscious internal conflict (e.g. part of you wants to go buy an ice-cream, part of you doesn't),
+                but the internal conflict can be subconscious as well. Human minds are great at learning to do things like breathe,
+                walk, and drive, without much need for conscious control. In the same way, human minds can learn that it is appropriate
+                to feel or think in certain ways, without there being much conscious decision making or control.
+                <br><br>
+                Elephant minds do
+                this as well (along with probably many other species, whose psychology I haven't studied). As baby elephants learn
+                that they can't pull a stake out of the ground, the decision to not try to pull the stake out of the ground becomes
+                more and more automatic, and less and less conscious or deliberate. This means that the decision to not try
+                to pull the stake out of the ground is made automatically and outside of conscious awareness, even when that is no longer
+                the best decision to
+                make.
+                <br><br>
+                <img src="./assets/elephant.webp" title="The elephant's subconscious mind mistakenly believes it is helpful to not pull on the stake" style="width:150px;">
+                <br><br>
+                If you consciously think about breathing, you are able to control your breath. However, if you distract, avoid, or
+                suppress your awareness of your breath, you will not be able to control it. Awareness is crucial, and without an
+                acceptance and curiosity for distressing emotions or thinking patterns, there will be limited awareness of the reasons
+                the mind thinks those emotions or thinking patterns are helpful.
+                <br><br>
+                If we say that all emotions and thinking patterns are potentially helpful, this leaves us with two possibilities when
+                a distressing emotion or thinking pattern arises. Either it is helpful, and ignoring it would not be in our best
+                interests (e.g. ignoring fear in a dangerous situation can result in less than ideal outcomes). Or, it is unhelpful,
+                which means that there is some part of the brain/mind which mistakenly believes it is helpful. In both cases,
+                avoiding or suppressing the distressing emotion or thinking pattern will cause it to persist. This is consistent with
+                research which indicates that individuals
+                with a mood disorder are significantly more likely to view distressing emotions as intrinsically negative, and to
+                attempt to avoid or suppress those emotions.
+                <br><br>
+                Going back to the idea of many things being cyclical, it makes sense to say that trying to avoid or suppress distressing
+                emotions or thinking patterns is a bit like trying to stay awake all of the time. It can paradoxically
+                end up creating more internal
+                conflict and suffering. This also applies to the experience of craving a "magic bullet" which will make everything
+                better - this craving itself creates suffering.
+                <br><br>
+                Another interesting thing about the human mind is that these subconscious decision-making processes (this is also
+                called implicit knowledge) respond to vivid imaginations as if they were really happening. This is why you can develop
+                motor learning skill by imaginging yourself doing something technical, why we can sometimes forget that our thoughts
+                aren't necessarily reality, and why there can be healing experiences driven by visualisation.
+                <br><br>
+                In summary, I think it can be helpful to be aware, accepting, and understanding of what our mind is doing.
+                <br><br>
+                Sometimes this might mean exploring distressing thoughts and emotions. If we bring all of the
+                implicit knowledge which necessitates the distressing emotion or thinking pattern out of the subconscious and
+                into our awareness, we can integrate it into our conscious experience,
+                either by learning from it, or by allowing it to be updated. When we allow
+                ourselves to feel and explore our emotions, we create space for greater self-awareness, healing, and integration.
+                <br><br>
+                However, just as it can be unhelpful to always avoid or suppress distressing emotions or thinking patterns, it can also
+                be unhelpful to always explore them. Exploration can be an overwhelming or confronting
+                process, and like all activities of the mind, the instinct to avoid or suppress distressing emotions or thinking
+                patterns can be useful in the right context.
+                <br><br>
+                By allowing all aspects of ourselves to be present and honoured, we can create a more
+                harmonious and balanced internal landscape.
+                <br><br>
             </div>
             
         </div>

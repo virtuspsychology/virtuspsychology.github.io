@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: relative;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 1em;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.fullscreen-image {
+  height: 100vh;
+  background-image: url('lake.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  padding: 2em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+}
+
+.full-column {
+  margin-top: 2em;
+}
+
+.column p {
+  margin-bottom: 1em;
+}
+
+.column a {
+  color: #333;
+  text-decoration: none;
+}
+
+.column a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+em {
+  font-style: italic;
+}
+
+.italics {
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fullscreen-image {
+    height: 50vh;
+  }
+}
+  
