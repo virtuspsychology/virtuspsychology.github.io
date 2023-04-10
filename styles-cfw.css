@@ -40,6 +40,10 @@ nav a:hover {
   background-position: center;
 }
 
+.italics {
+  font-style: italic;
+}
+
 main {
   padding: 2em;
 }
