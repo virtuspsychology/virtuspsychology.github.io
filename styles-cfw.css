@@ -33,6 +33,16 @@ nav a:hover {
   background-color: #222A68;
 }
 
+nav .menu-toggle {
+  display: none;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .fullscreen-image {
   height: 100vh;
   background-image: url('lake.jpg');
@@ -92,8 +102,31 @@ em {
   }
 
   nav {
-    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  nav .menu-toggle {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1em;
+    background-color: #222A68;
+  }
+
+  nav .menu-toggle:hover {
+    background-color: #1a1f4b;
+  }
+
+  nav a {
+    display: none;
+    width: 100%;
+    padding: 1em;
+    background-color: #222A68; /* Added background color to the links */
+  }
+
+  nav.show-links a {
+    display: flex;
   }
 
   .fullscreen-image {
