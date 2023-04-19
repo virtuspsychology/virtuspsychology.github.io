@@ -61,6 +61,7 @@ h1 {
 </style>
 
 <script>
+    let answeredQuestions = [];
     const questionElement = document.getElementById('question');
 const optionsContainer = document.getElementById('options-container');
 
@@ -223,6 +224,7 @@ function showQuestion() {
     option.textContent = question.options[i];
     option.classList.add('options');
     option.addEventListener('click', () => {
+        answeredQuestions.push({ question: question.question, answer: question.options[i] });
       if (question.answerType === 'ASD') {
         yesAnswersCount += i === 0 ? 1 : 0;
         const remainingQuestions = questions.length - currentQuestionIndex - 1;
@@ -251,24 +253,36 @@ function endQuiz() {
   const outcomeElement = document.getElementById('outcome');
   optionsContainer.innerHTML = ''; // Clear the options container
 
+  // Create a recap of questions and answers
+  let recap = '<h3>Recap:</h3><ol>';
+  for (let i = 0; i < answeredQuestions.length; i++) {
+    recap += `<li><strong>Question:</strong> ${answeredQuestions[i].question}<br><strong>Answer:</strong> ${answeredQuestions[i].answer}</li>`;
+  }
+  recap += '</ol>';
+
+  // Determine the diagnosis
+  let diagnosis;
   if (yesAnswersCount >= 9) {
-    outcomeElement.textContent = 'Acute Stress Disorder is an appropriate diagnosis.';
+    diagnosis = 'Acute Stress Disorder is an appropriate diagnosis.';
   } else if (currentQuestionIndex == -1) {
-    outcomeElement.textContent = 'Neither Acute Stress Disorder nor Adjustment Disorder is appropriate.';
+    diagnosis = 'Neither Acute Stress Disorder nor Adjustment Disorder is appropriate.';
   } else {
-    const diagnosis = [
+    diagnosis = [
       'Adjustment Disorder with depressed mood',
       'Adjustment Disorder with anxiety',
       'Adjustment Disorder with mixed anxiety and depressed mood',
       'Adjustment Disorder with disturbance of conduct',
       'Adjustment Disorder with mixed disturbance of emotions and conduct',
       'Adjustment Disorder unspecified',
-    ][-(currentQuestionIndex + 2)];
-    outcomeElement.textContent = diagnosis + ' is an appropriate diagnosis.';
+    ][-(currentQuestionIndex + 2)] + ' is an appropriate diagnosis.';
   }
+
+  // Display the recap and diagnosis
+  outcomeElement.innerHTML = recap + '<h3>Diagnosis:</h3>' + diagnosis;
 
   questionElement.style.display = 'none'; // Hide the question element
 }
+
 
 
 
