@@ -259,7 +259,7 @@ function showQuestion() {
         answeredQuestions.push({ question: question.question, answer: question.options[i] });
       if (question.answerType === 'ASD') {
         yesAnswersCount += i === 0 ? 1 : 0;
-        const remainingQuestions = questions.length - currentQuestionIndex - 1;
+        const remainingQuestions = questions.length - currentQuestionIndex - 2;
         if (remainingQuestions + yesAnswersCount < 9) {
           // Default to Adjustment Disorder followup questions
           currentQuestionIndex = 1;// index of the next Adjustment Disorder question;
@@ -292,6 +292,9 @@ function endQuiz() {
     recap += `<li><strong>Question:</strong> ${answeredQuestions[i].question}<br><strong>Answer:</strong> ${answeredQuestions[i].answer}</li>`;
   }
   recap += '</ol>';
+console.log("currentQuestionIndex: ", currentQuestionIndex);
+console.log("yesAnswersCount: ", yesAnswersCount);
+
 
   // Determine the diagnosis
   let diagnosis;
