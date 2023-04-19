@@ -11,6 +11,7 @@
         <div id="question"></div>
         <div id="options-container"></div>
         <div id="outcome" class="outcome"></div>
+        <button id="email-button" class="email-button" style="display:none;" onclick="sendEmail()">Email Recap</button>
     </div>
 </body>
 </html>
@@ -66,7 +67,22 @@ h1 {
   margin-bottom: 10px;
 }
 
+.email-button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
 
+    .email-button:hover {
+        background-color: #0056B3;
+    }
 </style>
 
 <script>
@@ -267,6 +283,7 @@ function showQuestion() {
 
 function endQuiz() {
   const outcomeElement = document.getElementById('outcome');
+  const emailButton = document.getElementById('email-button');
   optionsContainer.innerHTML = ''; // Clear the options container
 
   // Create a recap of questions and answers
@@ -295,8 +312,15 @@ function endQuiz() {
 
   // Display the recap and diagnosis
   outcomeElement.innerHTML = '<h3>Diagnosis:</h3>' + diagnosis + recap;
+  emailButton.style.display = 'block'; // Show the email button
 
   questionElement.style.display = 'none'; // Hide the question element
+}
+
+function sendEmail() {
+  const subject = encodeURIComponent('Acute Stress Disorder and Adjustment Disorder Quiz Recap');
+  const body = encodeURIComponent(document.getElementById('outcome').innerText);
+  window.location.href = `mailto:?subject=${subject}&body=${body}`;
 }
 
 
