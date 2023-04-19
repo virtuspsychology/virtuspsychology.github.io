@@ -224,6 +224,7 @@ const questions = [
     options: ['Yes', 'No'],
     nextQuestions: [19, -1],
   },
+
 ];
 
 let currentQuestionIndex = 0;
@@ -277,10 +278,10 @@ function endQuiz() {
 
   // Determine the diagnosis
   let diagnosis;
-  if (yesAnswersCount >= 9) {
-    diagnosis = 'Acute Stress Disorder is an appropriate diagnosis.';
-  } else if (currentQuestionIndex == -1) {
+    if (currentQuestionIndex == -1) {
     diagnosis = 'Neither Acute Stress Disorder nor Adjustment Disorder is appropriate.';
+    } else if (yesAnswersCount >= 9) {
+    diagnosis = 'Acute Stress Disorder is an appropriate diagnosis.';
   } else {
     diagnosis = [
       'Adjustment Disorder with depressed mood',
@@ -293,7 +294,7 @@ function endQuiz() {
   }
 
   // Display the recap and diagnosis
-  outcomeElement.innerHTML = recap + '<h3>Diagnosis:</h3>' + diagnosis;
+  outcomeElement.innerHTML = '<h3>Diagnosis:</h3>' + diagnosis + recap;
 
   questionElement.style.display = 'none'; // Hide the question element
 }
