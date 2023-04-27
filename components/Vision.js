@@ -25,10 +25,6 @@ const Vision = Vue.component('vision', {
     Carl Gustav Jung</span>
     <br><br>
     That certainly seems paradoxical.
-    <br><br>
-    <span class="quote">"The words of truth are always paradoxical. To the mind that is still, the whole universe surrenders."<br>
-    Lao Tzu, Tao Te Ching (The Book of the Way and its Virtue)
-    </span>
     </span>
     </div>
     </div>
