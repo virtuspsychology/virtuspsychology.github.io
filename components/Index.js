@@ -37,6 +37,7 @@ const Index = Vue.component('index', {
     },
     template: `
     <div class="page-outer-frame" style="margin-top: 60px; max-width: 700px; margin-bottom: 30px;">
+    <div class="page-content">
     <p>This website will automatically redirect you to my new Pendulum Psychology website in <span>{{ counter }}</span> seconds.</p>
     <div class="button" @click="redirectToNewWebsite">Take me there now</div>
     <div class="button" @click="cancelTimeout">Cancel the redirect</div>
@@ -49,6 +50,7 @@ My initial focus was on identifying behaviors and qualities that promote well-be
 Pendulum Psychology symbolises the dynamic equilibrium that can be achieved when we understand, and either integrate or accept the seemingly opposing forces within ourselves. For a long time now, my approach has revolved around understanding the origins and functions of our thoughts and emotions and helping clients find a balanced, harmonious middle ground.
 <br><br>
 If you have any questions or concerns, please feel free to reach out to me through my new website or contact me directly. I look forward to continuing to support your journey towards wellbeing and self-insight under a name which more closely resonates with my therapeutic approach.</p>
+    </div>
     </div>
     `
 });
